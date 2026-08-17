@@ -1,0 +1,74 @@
+---
+title: "Steering and headset"
+---
+
+Headset adjustment ("steering play") and related notes from personal
+maintenance logs.
+
+## Threaded headset adjustment {#sec-headset}
+
+Excess play is felt as a knock or looseness when rocking the bike with
+the front brake on.
+
+Reference video: [headset adjustment](https://www.youtube.com/watch?v=Ca2cVrr7l-U)
+
+### Adjustment sequence
+
+1. Loosen the **locknut** (top nut).
+2. Turn the **adjusting cup / bearing race** until play just disappears
+   with the fork centred — the bars should turn smoothly without binding.
+3. Hold the adjusting cup in place and re-tighten the **locknut**.
+4. Re-check: no play, no notchiness.
+
+```{mermaid}
+%%| label: fig-headset-adjust
+%%| fig-cap: "Threaded headset adjustment protocol."
+flowchart TD
+  A[Front brake on — rock bike] --> B{Play at headset?}
+  B -->|No| C[OK — check periodically]
+  B -->|Yes| D[Loosen locknut]
+  D --> E[Turn adjusting cup to remove play]
+  E --> F[Bars swing freely?]
+  F -->|No — tight| G[Back off adjusting cup slightly]
+  F -->|Yes| H[Hold cup — tighten locknut]
+  G --> E
+  H --> I[Re-test for play]
+  I --> B
+```
+
+## Integrated / threadless headsets {#sec-headset-threadless}
+
+Most modern road bikes use a threadless system:
+
+1. Loosen stem clamp bolts.
+2. Turn the **top cap** bolt (usually 4 or 5 mm hex) to remove play —
+   typically **0.2–0.5 Nm** preload, just enough to seat the bearings.
+3. Align the stem with the front wheel.
+4. Torque stem clamp bolts evenly to manufacturer spec.
+
+```{mermaid}
+%%| label: fig-threadless-headset
+%%| fig-cap: "Threadless headset adjustment."
+flowchart LR
+  A[Loosen stem clamps] --> B[Tighten top cap to remove play]
+  B --> C[Align stem]
+  C --> D[Torque stem bolts to spec]
+  D --> E[Check bearing feel]
+```
+
+## Symptoms and causes {#sec-headset-symptoms}
+
+| Symptom | Likely cause |
+| --- | --- |
+| Knock when braking | Headset too loose |
+| Notchy steering | Corroded or pitted bearings |
+| Bars cannot centre | Bent fork or misaligned stem |
+| Play returns quickly | Locknut not secured; wrong washer order |
+
+## Related: pedal and crank orientation {#sec-steering-related}
+
+Pedal thread directions and crank removal are covered in
+[bike overview](bike-overview.qmd#sec-pedals) and
+[gears](gears.qmd#sec-gears-chainrings). Always remove pedals before
+extracting cranks so the threads are not damaged by leverage on the
+levers.

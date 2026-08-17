@@ -1,0 +1,52 @@
+---
+title: "Gardening checklists"
+---
+
+Equipment and planting lists for balcony or small-space gardening.
+Incorporated from [issue #2](https://github.com/bastienchassagnol/Housework-items/issues/2).
+
+## Containers {#sec-garden-containers}
+
+- [ ] Flower pots (assorted sizes)
+- [ ] Window boxes for balcony ledges
+- [ ] Deep grow bags / planter tubs (ideal for tomatoes), **30 L**
+  minimum
+- [ ] Hanging pots to save space
+- [ ] Saucers under pots (to catch runoff)
+
+## Substrate {#sec-garden-substrate}
+
+- [ ] Potting compost
+- [ ] Compost (soil improver)
+- [ ] Mulch (straw or bark chips)
+- [ ] Liquid vegetable fertiliser
+
+## Vegetables and herbs {#sec-garden-crops}
+
+- [ ] Cherry tomatoes, radishes, lettuces, chillies or small peppers
+- [ ] Aromatic herbs: basil, parsley, thyme, rosemary, mint, chives
+- [ ] Useful or decorative flowers: nasturtiums, French marigolds,
+  petunias, geraniums
+
+## Supports {#sec-garden-supports}
+
+- [ ] Stakes or netting for climbing plants
+
+## Gardening tools {#sec-garden-tools}
+
+- [ ] Trowel (hand transplanting spade)
+- [ ] Hand cultivator (garden claw)
+- [ ] Watering can
+- [ ] Spray bottle (for misting leaves)
+
+```{mermaid}
+%%| label: fig-planting-workflow
+%%| fig-cap: "Simple planting workflow for balcony crops."
+flowchart TD
+  A[Choose container ≥ 30 L for tomatoes] --> B[Add drainage + saucer]
+  B --> C[Fill with potting compost + compost]
+  C --> D[Plant seedling or sow seed]
+  D --> E[Stake if needed]
+  E --> F[Water + mulch]
+  F --> G[Feed with liquid fertiliser during growth]
+```

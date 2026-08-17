@@ -1,0 +1,33 @@
+---
+title: "Household & bicycle maintenance"
+---
+
+Practical checklists and maintenance notes for setting up a home,
+gardening on a balcony or small plot, and keeping a road bike in good
+working order.
+
+The book is organised in three parts:
+
+1. **Gardening and planting** — containers, substrate, crops, and
+   basic tools.
+2. **Interior DIY and equipment** — room-by-room shopping and setup
+   lists for moving in.
+3. **Bicycle maintenance** — anatomy, brakes, gears, wheels and tyres,
+   and steering adjustment.
+
+All lists use GitHub-style task checkboxes (`- [ ]` / `- [x]`) so you
+can tick items off as you go.
+
+```{mermaid}
+%%| label: fig-book-overview
+%%| fig-cap: "High-level structure of this book."
+flowchart LR
+  A[Home setup] --> B[Gardening]
+  A --> C[Interior lists]
+  A --> D[Bicycle maintenance]
+  D --> D1[Overview]
+  D --> D2[Brakes]
+  D --> D3[Gears]
+  D --> D4[Tyres & wheels]
+  D --> D5[Steering]
+```

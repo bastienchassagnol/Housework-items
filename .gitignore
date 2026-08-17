@@ -1,0 +1,12 @@
+/.quarto/
+/_book/
+/_site/
+/.luarc.json
+
+# Local editor / tooling
+.cursor/
+
+# Source documents kept locally but not needed for the book build
+vélo astuces.docx
+
+**/*.quarto_ipynb

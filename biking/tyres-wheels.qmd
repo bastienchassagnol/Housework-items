@@ -1,0 +1,108 @@
+---
+title: "Tyres and wheels"
+---
+
+Wheel truing, cassette removal, and tyre basics.
+
+## Wheel truing {#sec-truing}
+
+### Tools
+
+![Spoke wrench icon](../images/media/image6.png){width=15%}
+
+- Spoke wrench (correct size for your nipples)
+- Truing stand or frame as a guide
+- Dish gauge (optional) — checks rim centreing on the hub
+- Lateral indicator — measures **lateral run-out** ("dish" error in the
+  sideways plane)
+
+![Truing stand and indicators](../images/media/image9.png){width=70%}
+
+### Truing procedure
+
+**Spoke nipples tighten clockwise (viewed from the rim), increasing
+tension.**
+
+1. Check for broken spokes; replace any that are damaged.
+2. Bring overall tension up evenly before fine truing.
+3. Correct run-out in groups of **3–4 spokes** at a time:
+   - If the rim pulls **left**, tighten right-side spokes and/or loosen
+     left-side spokes.
+   - Reverse for movement to the **right**.
+4. Work in **¼ or ½ turn** increments — never force a nipple to its limit.
+
+Full tutorial: [Le Cyclo — wheel truing](https://www.lecyclo.com/blogs/conseils/tutoriel-devoiler-roue-velo)
+
+```{mermaid}
+%%| label: fig-wheel-true
+%%| fig-cap: "Wheel truing decision loop."
+flowchart TD
+  A[Spin wheel — mark lateral deviation] --> B{Broken spoke?}
+  B -->|Yes| C[Replace spoke & pre-tension]
+  B -->|No| D[Equalise base tension]
+  D --> E[Adjust 3–4 spokes near deviation]
+  E --> F{Run-out acceptable?}
+  F -->|No| E
+  F -->|Yes| G[Check dish & spoke tension balance]
+```
+
+## Cassette removal {#sec-cassette}
+
+Identify whether you have a **cassette** (modern freehub) or a **freewheel**
+(screw-on, common on ≤ 7-speed bikes).
+
+Video: [cassette removal](https://youtu.be/SaGTwaI-a6A)
+
+1. Fit the chain whip to hold the sprockets.
+2. Insert the lockring tool and turn the lockring **anti-clockwise**.
+
+![Chain whip and lockring tool](../images/media/image11.png){width=45%}
+![Removing a cassette](../images/media/image12.jpeg){width=45%}
+
+```{mermaid}
+%%| label: fig-cassette-removal
+%%| fig-cap: "Cassette removal on a Shimano HG freehub."
+flowchart LR
+  A[Remove rear wheel] --> B[Remove quick-release skewer / thru-axle]
+  B --> C[Wrap chain whip on largest sprocket]
+  C --> D[Insert HG lockring tool]
+  D --> E[Turn lockring anti-clockwise]
+  E --> F[Slide cassette off splines]
+  F --> G[Clean freehub body]
+```
+
+## Tyres {#sec-tyres}
+
+### Routine checks
+
+- [ ] Correct inflation (see sidewall range; typically 6–8 bar / 80–115
+  psi for 25 mm road tyres)
+- [ ] Tread wear indicators or flat spot in the centre
+- [ ] Cuts, embedded glass, sidewall bulges
+- [ ] Valve seating (Presta: tighten lockring finger-tight only)
+
+### Tyre removal and fitting
+
+```{mermaid}
+%%| label: fig-tyre-change
+%%| fig-cap: "Road tyre replacement on the roadside or at home."
+flowchart TD
+  A[Deflate fully] --> B[Push bead into rim well opposite valve]
+  B --> C[Lever one bead over rim — avoid pinching tube]
+  C --> D[Remove tube]
+  D --> E[Inspect inside of tyre for debris]
+  E --> F[Inflate new tube slightly]
+  F --> G[Seat tube in rim — valve first]
+  G --> H[Work second bead on with hands]
+  H --> I[Inflate to seating pressure]
+  I --> J[Centre wheel & check bead line]
+```
+
+### When to replace
+
+| Sign | Action |
+| --- | --- |
+| Frequent punctures on same wheel | Inspect rim tape and spoke ends |
+| Squared-off tread profile | Replace tyre |
+| Visible casing threads | Replace immediately |
+| Age > 3–5 years (garage storage) | Consider replacement even if tread looks fine |

@@ -1,0 +1,122 @@
+# Quarto book — household checklists and bicycle maintenance notes.
+# https://quarto.org/docs/books/
+
+# =========================
+# Project scope and build
+# =========================
+project:
+  type: book
+  output-dir: _book
+  render:
+    - index.qmd
+    - gardening/checklists.qmd
+    - interior/equipment-lists.qmd
+    - biking/bike-overview.qmd
+    - biking/brakes.qmd
+    - biking/gears.qmd
+    - biking/tyres-wheels.qmd
+    - biking/steering.qmd
+
+# =========================
+# Book metadata and order
+# =========================
+book:
+  title: "Household & bicycle maintenance"
+  description: >
+    Checklists for home setup, gardening, and practical bicycle
+    maintenance notes.
+  author: "Bastien Chassagnol"
+  output-file: housework-items
+  chapters:
+    - index.qmd
+    - part: "Gardening and planting"
+      chapters:
+        - gardening/checklists.qmd
+    - part: "Interior DIY and equipment"
+      chapters:
+        - interior/equipment-lists.qmd
+    - part: "Bicycle maintenance"
+      chapters:
+        - biking/bike-overview.qmd
+        - biking/brakes.qmd
+        - biking/gears.qmd
+        - biking/tyres-wheels.qmd
+        - biking/steering.qmd
+  repo-url: https://github.com/bastienchassagnol/Housework-items
+  site-url: https://bastienchassagnol.github.io/Housework-items/
+  repo-branch: main
+  repo-actions: [edit, issue, source]
+  open-graph: true
+  downloads: [pdf]
+  page-footer:
+    center: |
+      Built with <a href="https://quarto.org/">Quarto</a>.
+    background: "#f8f9fa"
+    border: false
+    right:
+      - icon: github
+        href: https://github.com/bastienchassagnol/Housework-items
+
+# =========================
+# Shared document defaults
+# =========================
+quarto-required: ">= 1.8.0"
+toc: true
+toc-depth: 4
+number-sections: true
+number-depth: 4
+tbl-cap-location: bottom
+fig-align: center
+out-width: "80%"
+fig-dpi: 320
+lang: en-GB
+
+# =========================
+# Output formats
+# =========================
+format:
+  html:
+    page-layout: full
+    lightbox: true
+    smooth-scroll: true
+    code-fold: true
+    code-tools: false
+    code-overflow: wrap
+    crossrefs-hover: true
+    footnotes-hover: true
+  pdf:
+    documentclass: scrbook
+    pdf-engine: lualatex
+    monofont: "DejaVu Sans Mono"
+    latex-auto-install: true
+    latex-max-runs: 5
+
+# =========================
+# Filters and execution
+# =========================
+execute:
+  echo: false
+  eval: false
+  message: false
+  warning: false
+  error: false
+  freeze: auto
+
+# =========================
+# Editor preferences
+# =========================
+editor:
+  source: true
+
+# =========================
+# Cross-references
+# =========================
+crossref:
+  chapters: true
+
+# =========================
+# Metadata
+# =========================
+license: "MIT"
+copyright:
+  holder: Bastien Chassagnol

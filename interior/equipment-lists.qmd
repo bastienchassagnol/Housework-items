@@ -1,0 +1,132 @@
+---
+title: "Interior equipment lists"
+---
+
+Room-by-room checklists for furnishing and stocking a flat.
+Incorporated from [issue #1](https://github.com/bastienchassagnol/Housework-items/issues/1).
+
+## Temporary actions {#sec-interior-temporary}
+
+- [ ] [Wardrobe kit with curtain](https://www.weldom.fr/p/kit-dressing-avec-rideau-blanc-mat-star-2-h-200-x-l-182-2-x-p-49-9-cm-89989259)
+
+## Kitchen furniture and appliances {#sec-interior-kitchen}
+
+- [ ] Fridge + freezer
+- [ ] Microwave
+- [ ] Oven
+- [ ] Hob (induction adapter if needed)
+- [ ] Kitchen table + chairs
+- [ ] **Measuring jug**
+- [ ] Coffee maker
+- [ ] Kettle
+- [ ] Placemats, boards
+- [ ] Bowls, glasses, mugs
+- [ ] Cutlery, and spatulas (wood and plastic) / ladle
+- [ ] **Plates**
+- [ ] Mixing bowl (salad bowl)
+- [ ] **Frying pans**
+- [ ] Saucepans
+- [ ] **Lids**
+- [ ] Vegetable peeler
+- [ ] Electric hand mixer
+- [ ] Blender
+- [ ] Food processor
+- [ ] Grater
+- [ ] **Colander**
+- [ ] Draining rack
+- [ ] Tea towels
+- [ ] Washing-up liquid
+- [ ] **Soap**
+- [ ] Kitchen scales
+- [ ] **Whisk**
+- [ ] Aluminium foil, baking parchment, baking paper
+- [ ] **Knife sharpener**
+- [ ] Bin + bin bags
+- [ ] **Chopping board**
+
+## Food (to get started) {#sec-interior-food}
+
+- [ ] Oil, spices (pepper, curry, paprika), salt
+- [ ] Garlic, onions, shallots
+- [ ] Potatoes
+- [ ] Ice packs
+- [ ] Flour, sugar
+- [ ] Pasta, rice
+- [ ] Pâté, cured sausages
+- [ ] Jam
+- [ ] Baking kit (vanilla, yeast)
+- [ ] **Honey**
+- [ ] **Coffee, herbal teas**
+- [ ] **Single-portion tinned goods**
+
+## Bedding and bedroom {#sec-interior-bedroom}
+
+- [ ] Wardrobe for clothes + hangers
+- [ ] Bed (base + mattress)
+- [ ] Duvet and sheet
+- [ ] Pillows and pillowcases
+- [ ] Bedside table
+- [ ] Lamp (**second lamp**)
+- [ ] Camp beds
+- [ ] Sofa bed (fold-out)
+- [ ] Shoe storage furniture
+- [ ] **Plastic crates / stacking towers**
+
+## Bathroom and shower {#sec-interior-bathroom}
+
+- [ ] Brush
+- [ ] Mop (bucket) + dustpan and brush
+- [ ] Vacuum cleaner
+- [ ] Bath mat
+- [ ] First-aid kit + sun cream
+- [ ] Plasters + antiseptic
+- [ ] Toothbrush, nail clippers, safety pin, toothpaste
+- [ ] Razor (manual + electric), shaving foam
+- [ ] Bathroom scales
+- [ ] Floor cleaner
+- [ ] Toilet cleaner (drains) and/or limescale remover
+- [ ] (wood cleaner)
+- [ ] Glass cleaner
+- [ ] White vinegar + bicarbonate of soda
+- [ ] Laundry detergent
+- [ ] Washing machine
+- [ ] Clothes airers
+- [ ] Shower curtain, rail
+- [ ] Laundry basket
+- [ ] Toilet paper
+- [ ] Gloves and towels
+
+## Clothing and sport {#sec-interior-clothing}
+
+- [ ] Underwear
+- [ ] Rain clothing
+- [ ] Sportswear
+- [ ] Summer clothing
+- [ ] Casual wear (baggy trousers, jumpers)
+- [ ] Suit
+- [ ] Shoes (*3 pairs*)
+- [ ] Hydration pack
+- [ ] Bicycles + locks + helmet + gloves + cap
+- [ ] Water bottles and thermos flasks
+- [ ] Slippers and flip-flops
+- [ ] Swimming gear
+
+## Work {#sec-interior-work}
+
+- [ ] Computers
+- [ ] Extension lead and chargers
+- [ ] Graphics tablet
+- [ ] Notebooks, pencil case, **stamps**, envelopes
+- [ ] Desk, lamp, office chair
+- [ ] External hard drive, power bank
+- [ ] Headphones
+
+## Leisure {#sec-interior-leisure}
+
+- [ ] Electronic kit (chargers, Ethernet cable, …)
+- [ ] Hiking rucksack
+- [ ] Hiking equipment (head torch, …)
+- [ ] Bicycle, bottle, repair kit, track pump
+- [ ] DIY tools
+- [ ] Books + bookcase
+- [ ] **Board games**, playing cards
