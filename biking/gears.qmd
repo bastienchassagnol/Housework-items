@@ -5,8 +5,6 @@ title: "Gears"
 Derailleur adjustment, chain cleaning, and a chainring / rear-derailleur
 replacement workflow for a Shimano 105 triple 10-speed bike.
 
-**Tighten = clockwise · Loosen = anti-clockwise** (see
-@fig-screw-direction in the overview chapter).
 
 ## Front derailleur {#sec-gears-front}
 
@@ -117,7 +115,7 @@ Compatible rear derailleur: **Shimano 105 RD-5701-GS** (preferred) or
 25–30 teeth for RD-5701-GS). Examples `11-28`, `12-28`, `12-30` are
 fine; `11-32` needs checking.
 
-### Suggested chainring parts (verify Marketplace shipping)
+### Suggested chainring parts
 
 | Ring | Spec |
 | --- | --- |
@@ -179,5 +177,61 @@ persists on one or two sprockets despite correct adjustment, replace the
 cassette — the 900 box already includes the HG lockring tool and chain
 whip.
 
-**Minimum extra purchases:** 10 mm hex key/bit and a torque wrench to
-**≥ 41 Nm**; add quick-link pliers and grease for convenience.
+
+## Crankset removal (after pedals) {#sec-crank-removal}
+
+Traditional square-taper or external-bearing systems use a crank
+extractor; **FSA 30 mm self-extracting axles use a 10 mm hex in the
+central bolt instead** — see @sec-gears-chainrings for the full
+chainring-replacement workflow.
+
+For extractor-type cranks:
+
+1. Remove the chain.
+2. Remove the retaining bolt at the base of the crank.
+3. Fit the crank extractor; if stiff, back the extractor off slightly
+   and tap with a mallet.
+4. Tighten the extractor with a 14 mm spanner until the crank releases.
+   Repeat on both sides, turning anti-clockwise.
+
+![Crank extractor examples](../images/media/image2.jpeg){width=30%}
+![Crank puller](../images/media/image3.jpeg){width=35%}
+![Removing a crankset](../images/media/image4.jpeg){width=40%}
+
+Reference videos:
+
+- [Road crank removal](https://youtu.be/qytVJYF0-Sk)
+
+```{mermaid}
+%%| label: fig-crank-removal
+%%| fig-cap: "Crank removal with a classic extractor (non self-extracting axles)."
+flowchart TD
+  A[Remove pedals] --> B[Remove chain from chainrings]
+  B --> C[Undo crank retaining bolt]
+  C --> D[Thread in crank extractor]
+  D --> E[Tighten extractor body against crank]
+  E --> F[Turn extractor bolt anti-clockwise]
+  F --> G{Crank released?}
+  G -->|No| E
+  G -->|Yes| H[Repeat other side]
+```
+### Self Extracting Crankset Removal with a 10 mm hex key
+
+::: {#fig-self-extracting-crankset-removal}
+
+{{< video https://www.youtube.com/embed/wo9vZccmqwc
+    title="Removing a crankset with a self-extracting axle (10 mm hex)"
+    aria-label="Video demonstration of removing an FSA Gossamer BB30 crankset with a 10 mm hex key"
+    start="20"
+>}}
+
+Self-extracting crankset removal / installation. FSA Gossamer BB30.
+
+:::
+
+In @fig-self-extracting-crankset-removal, the procedure for removing a
+crankset with a self-extracting axle (10 mm hex key) is shown.
+
+For the manufacturer's PDF, refer to @fig-manual-crankset-removal.
+
+[![Manual PDF version — FSA chainring installation guide](../images/installation_plateau_velo_route.png){#fig-manual-crankset-removal}](https://shop.fullspeedahead.com/en/files/index/download/id/e78fa6c7be9b9e63ddec816cb672dfb1735/)
