@@ -16,6 +16,8 @@ Common road-bike families:
 | Cantilever / V-brake | Older hybrids, CX | Pad alignment, straddle cable |
 | Disc (mechanical or hydraulic) | Modern road, gravel | Rotor thickness, pad gap, fluid level |
 
+: Common bicycle brake families. {#tbl-brake-types}
+
 ## How to monitor rim brakes {#sec-brake-monitor}
 
 1. **Pad thickness** — replace before the metal holder contacts the rim.
@@ -43,10 +45,31 @@ flowchart TD
 
 ## Brake lever replacement {#sec-brake-levers}
 
-Useful references when replacing or refurbishing STI levers:
+Useful references when replacing or refurbishing {{< glossary STI >}}
+levers:
 
-- [Lever replacement (video)](https://youtu.be/dYaIMNtPRms)
-- [Full cable and lever change](https://www.youtube.com/watch?v=xr1n9UvxVCk)
+::: {#fig-lever-video}
+
+{{< video https://youtu.be/dYaIMNtPRms
+    title="STI lever replacement"
+    aria-label="Video of replacing a Shimano STI brake and gear lever"
+>}}
+
+Lever replacement.
+
+:::
+
+::: {#fig-cable-lever-video}
+
+{{< video https://www.youtube.com/watch?v=xr1n9UvxVCk
+    title="Full cable and lever change"
+    aria-label="Video of changing brake and gear cables with the levers"
+>}}
+
+Full cable and lever change.
+
+:::
+
 - [Shimano RSX lever rebuild](https://www.muzarde.com/reconditionner-une-poignee-sti-shimano-rsx-gauche/)
 - [Shimano 105 ST-5600 diagram](https://lesmainsdansleguidon.fr/produit/paire-levier-manette-shimano-105-2x10vitesses-st-5600-flightdeck/)
 

@@ -37,8 +37,18 @@ flowchart TD
 
 ## Rear derailleur {#sec-gears-rear}
 
-Reference: [VCMB rear derailleur guide](https://cyclo.vcmb.fr/la-vie-du-club/technique-mecanique/mecanique-velo/112-reglage-derailleur-arriere)
-and [video walkthrough](https://youtu.be/VIJnvfEM63M).
+Reference: [VCMB rear derailleur guide](https://cyclo.vcmb.fr/la-vie-du-club/technique-mecanique/mecanique-velo/112-reglage-derailleur-arriere).
+
+::: {#fig-rear-derailleur-video}
+
+{{< video https://youtu.be/VIJnvfEM63M
+    title="Rear derailleur adjustment"
+    aria-label="Video walkthrough of rear derailleur limit screws and cable tension"
+>}}
+
+Rear derailleur adjustment walkthrough.
+
+:::
 
 1. Confirm the derailleur hanger is straight and the cage aligns with
    the sprockets.
@@ -55,15 +65,8 @@ and [video walkthrough](https://youtu.be/VIJnvfEM63M).
 5. **B-tension screw** — sets gap between upper jockey wheel and
    largest sprocket.
 
-::: {.content-visible when-format="html"}
-![Rear derailleur H adjustment](../images/media/image13.gif){width=45%}
-![Rear derailleur limits](../images/media/image14.gif){width=45%}
-:::
-
-::: {.content-visible when-format="pdf"}
-![Rear derailleur H adjustment](../images/media/image13.png){width=45%}
-![Rear derailleur limits](../images/media/image14.png){width=45%}
-:::
+![Rear derailleur H adjustment](../images/media/image13.png){#fig-rd-h width=45%}
+![Rear derailleur limits](../images/media/image14.png){#fig-rd-l width=45%}
 
 ```{mermaid}
 %%| label: fig-rear-derailleur
@@ -87,7 +90,18 @@ flowchart TD
 
 Sources:
 
-- [YouTube chain clean](https://www.youtube.com/watch?v=gvM-egPjf1Q&t=63s)
+::: {#fig-chain-clean-video}
+
+{{< video https://www.youtube.com/watch?v=gvM-egPjf1Q
+    title="How to clean a bicycle chain"
+    aria-label="Video demonstration of degreasing and lubricating a bicycle chain"
+    start="63"
+>}}
+
+Chain cleaning and lubrication.
+
+:::
+
 - [Decathlon chain care](https://conseilsport.decathlon.fr/chaine-de-velo-comment-bien-la-nettoyer-et-lubrifier)
 
 ```{mermaid}
@@ -101,29 +115,204 @@ flowchart LR
   E --> F[Rotate through gears]
 ```
 
-## Chainring and rear-derailleur replacement {#sec-gears-chainrings}
 
-Notes for an **FSA Gossamer triple 52/39/30** (five-arm: 130 mm BCD
-outer/middle, 74 mm BCD inner), **175 mm cranks**, **9/10-speed**
-chain, with **Shimano 105 ST-5703 / FD-5703** shifters.
+## How to change the mechanical components {#sec-crank-removal}
 
-Compatible rear derailleur: **Shimano 105 RD-5701-GS** (preferred) or
-**Tiagra RD-4601-GS**. Do **not** fit a Deore M6000 10-speed derailleur
-— cable pull differs from 5700-generation road levers.
+### Pedal removal first
 
-**Before ordering:** confirm the largest cassette sprocket (officially
-25–30 teeth for RD-5701-GS). Examples `11-28`, `12-28`, `12-30` are
-fine; `11-32` needs checking.
+The left pedal sits on the opposite side of the bottom bracket shell
+(i.e. on your left when you mount the bike).
 
-### Suggested chainring parts
+![Which way to turn a screw](../images/media/image1.jpeg){#fig-screw-direction width=60%}
 
-| Ring | Spec |
-| --- | --- |
-| Outer 52 | TA Spécialités Alizé, 130 BCD, 5-arm, 9/10 s |
-| Middle 39 | TA Spécialités Alizé, 130 BCD, 5-arm, 9/10 s |
-| Inner 30 | TA Spécialités Zelito, 74 BCD, 5-arm, triple 9/10 s |
+- **Fitting:** the right pedal tightens clockwise; the left pedal
+  tightens anti-clockwise.
+- **Removal:** the right pedal loosens anti-clockwise (the opposite of
+  normal right-hand threads).
 
-### Replacement procedure
+```{mermaid}
+%%| label: fig-pedal-threads
+%%| fig-cap: "Pedal thread directions (viewed from the outside of the crank)."
+flowchart LR
+  R[Right crank] -->|tighten| CW1[Clockwise]
+  R -->|loosen| ACW1[Anti-clockwise]
+  L[Left crank] -->|tighten| ACW2[Anti-clockwise]
+  L -->|loosen| CW2[Clockwise]
+```
+
+### Crankset removal second
+
+Traditional square-taper or external-bearing systems use a crank
+extractor; **FSA 30 mm self-extracting axles use a 10 mm hex in the
+central bolt instead** — see @sec-cassette for sprocket clusters, and
+the self-extracting procedure below for the FSA crank.
+
+For extractor-type cranks:
+
+1. Remove the chain.
+2. Remove the retaining bolt at the base of the crank.
+3. Fit the crank extractor; if stiff, back the extractor off slightly
+   and tap with a mallet.
+4. Tighten the extractor with a 14 mm spanner until the crank releases.
+   Repeat on both sides, turning anti-clockwise.
+
+![Crank extractor examples](../images/media/image2.jpeg){#fig-crank-extractor width=30%}
+![Crank puller](../images/media/image3.jpeg){#fig-crank-puller width=35%}
+![Removing a crankset](../images/media/image4.jpeg){#fig-crank-off width=40%}
+
+
+#### Standard crankset removal
+
+::: {#fig-road-crank-video}
+
+{{< video https://youtu.be/qytVJYF0-Sk
+    title="Road crank removal with an extractor"
+    aria-label="Video of removing a road crankset with a classic crank extractor"
+>}}
+
+Road crank removal with a classic extractor.
+
+:::
+
+```{mermaid}
+%%| label: fig-crank-removal
+%%| fig-cap: "Crank removal with a classic extractor (non self-extracting axles)."
+flowchart TD
+  A[Remove pedals] --> B[Remove chain from chainrings]
+  B --> C[Undo crank retaining bolt]
+  C --> D[Thread in crank extractor]
+  D --> E[Tighten extractor body against crank]
+  E --> F[Turn extractor bolt anti-clockwise]
+  F --> G{Crank released?}
+  G -->|No| E
+  G -->|Yes| H[Repeat other side]
+```
+#### Self-extracting crankset removal with a 10 mm hex key
+
+::: {#fig-self-extracting-crankset-removal}
+
+{{< video https://www.youtube.com/embed/wo9vZccmqwc
+    title="Removing a crankset with a self-extracting axle (10 mm hex)"
+    aria-label="Video demonstration of removing an FSA Gossamer BB30 crankset with a 10 mm hex key"
+    start="20"
+>}}
+
+Self-extracting crankset removal / installation. FSA Gossamer BB30.
+
+:::
+
+In @fig-self-extracting-crankset-removal, the procedure for removing a
+crankset with a self-extracting axle (10 mm hex key) is shown.
+
+For the manufacturer's PDF, refer to @fig-manual-crankset-removal.
+
+[![Manual PDF version — FSA chainring installation guide](../images/installation_plateau_velo_route.png){#fig-manual-crankset-removal}](https://shop.fullspeedahead.com/en/files/index/download/id/e78fa6c7be9b9e63ddec816cb672dfb1735/)
+
+
+### Cassette or freewheel {#sec-cassette}
+
+Two incompatible rear clusters exist. Both let you coast, but they
+**fix to the hub differently** and need **different removers**. Summary
+from [Le Cyclo — freewheel and cassette](https://www.lecyclo.com/blogs/conseils/roue-libre-cassette-velo).
+
+| | Freewheel (roue libre) | Cassette |
+| --- | --- | --- |
+| Hub | Threaded | Splined freehub body |
+| Ratchet | Inside the cluster | Inside the hub |
+| Speeds | 1–8 (never more than 8) | 7–12 |
+| Typical bikes | Pre-1980s, city, BMX, singlespeed | Modern road and mountain |
+| Remover | Freewheel remover (démonte-roue-libre) | Shimano HG lockring tool |
+| Hold still with | Chain whip | Chain whip |
+
+: Mechanical differences between a threaded freewheel and a cassette. {#tbl-cassette-vs-freewheel}
+
+**Visual check** (wheel off, turn the sprockets by hand):
+
+- **Freewheel:** a ring between the axle and the smallest sprocket
+  **stays still** while the sprockets spin. The cluster is one block.
+- **Cassette:** the **whole stack turns together**; nothing stays
+  fixed next to the axle. Nine sprockets or more is always a cassette.
+
+```{mermaid}
+%%| label: fig-cassette-or-freewheel
+%%| fig-cap: "How to tell a threaded freewheel from a cassette."
+flowchart TD
+  A[Rear wheel off] --> B{More than 8 sprockets?}
+  B -->|Yes| C[Cassette]
+  B -->|No| D[Spin the sprockets]
+  D --> E{Fixed ring next to the axle?}
+  E -->|Yes — inner stays still| F[Threaded freewheel]
+  E -->|No — whole stack turns| C
+```
+
+#### Removing a cassette
+
+The sprockets slide off the freehub body after the lockring is undone.
+The Decathlon 900 box already has the whip and the HG lockring tool.
+
+::: {#fig-cassette-video}
+
+{{< video https://youtu.be/SaGTwaI-a6A
+    title="Cassette removal"
+    aria-label="Video of removing a Shimano HG cassette with a chain whip and lockring tool"
+>}}
+
+Cassette removal on a Shimano HG freehub.
+
+:::
+
+1. Remove the rear wheel and the quick-release or thru-axle.
+2. Wrap the {{< glossary "chain whip" >}} on the largest sprocket to
+   stop the cassette turning.
+3. Seat the {{< glossary "lockring tool" >}} in the lockring.
+4. Turn the lockring **anti-clockwise**.
+5. Slide the sprockets off the splines (note the wider spline gap —
+   it keys the orientation).
+6. Clean the freehub body before refitting; tighten the new lockring
+   **clockwise**.
+
+![Chain whip and lockring tool](../images/media/image11.png){#fig-chain-whip width=45%}
+![Removing a cassette](../images/media/image12.jpeg){#fig-cassette-off width=45%}
+
+```{mermaid}
+%%| label: fig-cassette-removal
+%%| fig-cap: "Cassette removal on a Shimano HG freehub."
+flowchart LR
+  A[Remove rear wheel] --> B[Remove quick-release / thru-axle]
+  B --> C[Wrap chain whip on largest sprocket]
+  C --> D[Insert HG lockring tool]
+  D --> E[Turn lockring anti-clockwise]
+  E --> F[Slide cassette off splines]
+  F --> G[Clean freehub body]
+```
+
+#### Removing a freewheel
+
+The whole body **unscrews from the hub**. A cassette lockring tool will
+**not** fit: you need a freewheel remover whose splines (or two prongs)
+match that brand.
+
+1. Same as above: wheel off, chain whip on the largest sprocket.
+2. Seat the **freewheel remover** fully in the centre.
+3. Turn **anti-clockwise**. The first break of thread is often very
+   tight (pedalling has been tightening it for years).
+4. Once loose, unscrew the whole body by hand.
+
+Refit by starting the thread **by hand, clockwise**, square to the hub,
+then finish with the remover or by pedalling. Cross-threading ruins the
+hub.
+
+```{mermaid}
+%%| label: fig-freewheel-removal
+%%| fig-cap: "Threaded freewheel removal."
+flowchart LR
+  A[Remove rear wheel] --> B[Chain whip on large sprocket]
+  B --> C[Seat freewheel remover]
+  C --> D[Turn anti-clockwise]
+  D --> E[Unscrew whole body]
+```
+
+## Summary infographic
 
 ```{mermaid}
 %%| label: fig-chainring-swap
@@ -169,69 +358,3 @@ Step-by-step:
     previous length was correct; respect directional markings.
 11. **Test** — the front derailleur should need little change if
     tooth counts stay 52/39/30.
-
-### Cassette wear warning
-
-A new chain on a heavily worn cassette can skip under load. If skipping
-persists on one or two sprockets despite correct adjustment, replace the
-cassette — the 900 box already includes the HG lockring tool and chain
-whip.
-
-
-## Crankset removal (after pedals) {#sec-crank-removal}
-
-Traditional square-taper or external-bearing systems use a crank
-extractor; **FSA 30 mm self-extracting axles use a 10 mm hex in the
-central bolt instead** — see @sec-gears-chainrings for the full
-chainring-replacement workflow.
-
-For extractor-type cranks:
-
-1. Remove the chain.
-2. Remove the retaining bolt at the base of the crank.
-3. Fit the crank extractor; if stiff, back the extractor off slightly
-   and tap with a mallet.
-4. Tighten the extractor with a 14 mm spanner until the crank releases.
-   Repeat on both sides, turning anti-clockwise.
-
-![Crank extractor examples](../images/media/image2.jpeg){width=30%}
-![Crank puller](../images/media/image3.jpeg){width=35%}
-![Removing a crankset](../images/media/image4.jpeg){width=40%}
-
-Reference videos:
-
-- [Road crank removal](https://youtu.be/qytVJYF0-Sk)
-
-```{mermaid}
-%%| label: fig-crank-removal
-%%| fig-cap: "Crank removal with a classic extractor (non self-extracting axles)."
-flowchart TD
-  A[Remove pedals] --> B[Remove chain from chainrings]
-  B --> C[Undo crank retaining bolt]
-  C --> D[Thread in crank extractor]
-  D --> E[Tighten extractor body against crank]
-  E --> F[Turn extractor bolt anti-clockwise]
-  F --> G{Crank released?}
-  G -->|No| E
-  G -->|Yes| H[Repeat other side]
-```
-### Self Extracting Crankset Removal with a 10 mm hex key
-
-::: {#fig-self-extracting-crankset-removal}
-
-{{< video https://www.youtube.com/embed/wo9vZccmqwc
-    title="Removing a crankset with a self-extracting axle (10 mm hex)"
-    aria-label="Video demonstration of removing an FSA Gossamer BB30 crankset with a 10 mm hex key"
-    start="20"
->}}
-
-Self-extracting crankset removal / installation. FSA Gossamer BB30.
-
-:::
-
-In @fig-self-extracting-crankset-removal, the procedure for removing a
-crankset with a self-extracting axle (10 mm hex key) is shown.
-
-For the manufacturer's PDF, refer to @fig-manual-crankset-removal.
-
-[![Manual PDF version — FSA chainring installation guide](../images/installation_plateau_velo_route.png){#fig-manual-crankset-removal}](https://shop.fullspeedahead.com/en/files/index/download/id/e78fa6c7be9b9e63ddec816cb672dfb1735/)

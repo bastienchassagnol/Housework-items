@@ -5,10 +5,6 @@ title: "Interior equipment lists"
 Room-by-room checklists for furnishing and stocking a flat.
 Incorporated from [issue #1](https://github.com/bastienchassagnol/Housework-items/issues/1).
 
-## Temporary actions {#sec-interior-temporary}
-
-- [ ] [Wardrobe kit with curtain](https://www.weldom.fr/p/kit-dressing-avec-rideau-blanc-mat-star-2-h-200-x-l-182-2-x-p-49-9-cm-89989259)
-
 ## Kitchen furniture and appliances {#sec-interior-kitchen}
 
 - [ ] Fridge + freezer

@@ -10,7 +10,16 @@ maintenance logs.
 Excess play is felt as a knock or looseness when rocking the bike with
 the front brake on.
 
-Reference video: [headset adjustment](https://www.youtube.com/watch?v=Ca2cVrr7l-U)
+::: {#fig-headset-video}
+
+{{< video https://www.youtube.com/watch?v=Ca2cVrr7l-U
+    title="Threaded headset adjustment"
+    aria-label="Video of adjusting a threaded bicycle headset locknut and bearing cup"
+>}}
+
+Threaded {{< glossary headset >}} adjustment.
+
+:::
 
 ### Adjustment sequence
 
@@ -65,10 +74,5 @@ flowchart LR
 | Bars cannot centre | Bent fork or misaligned stem |
 | Play returns quickly | Locknut not secured; wrong washer order |
 
-## Related: pedal and crank orientation {#sec-steering-related}
+: Headset symptoms and likely causes. {#tbl-headset-symptoms}
 
-Pedal thread directions and crank removal are covered in
-[bike overview](bike-overview.qmd#sec-pedals) and
-[gears](gears.qmd#sec-gears-chainrings). Always remove pedals before
-extracting cranks so the threads are not damaged by leverage on the
-levers.

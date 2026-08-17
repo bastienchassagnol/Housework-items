@@ -2,60 +2,55 @@
 title: "Bike overview and equipment"
 ---
 
-General anatomy notes, pedal fitting, and the toolkit required for
-routine maintenance. 
-
-**Minimum extra purchases:** 10 mm hex key/bit and a torque wrench to
-**≥ 41 Nm**; add quick-link pliers and grease for convenience.
-
-## Pedal orientation and thread direction {#sec-pedals}
-
-The left pedal sits on the opposite side of the bottom bracket shell
-(i.e. on your left when you mount the bike).
-
-![Which way to turn a screw](../images/media/image1.jpeg){#fig-screw-direction width=60%}
-
-- **Fitting:** the right pedal tightens clockwise; the left pedal
-  tightens anti-clockwise.
-- **Removal:** the right pedal loosens anti-clockwise (the opposite of
-  normal right-hand threads).
-
-```{mermaid}
-%%| label: fig-pedal-threads
-%%| fig-cap: "Pedal thread directions (viewed from the outside of the crank)."
-flowchart LR
-  R[Right crank] -->|tighten| CW1[Clockwise]
-  R -->|loosen| ACW1[Anti-clockwise]
-  L[Left crank] -->|tighten| ACW2[Anti-clockwise]
-  L -->|loosen| CW2[Clockwise]
-```
+General anatomy notes and the toolkit required for routine maintenance.
 
 ## Essential toolkit {#sec-toolkit}
 
-For a Shimano 105 triple 10-speed road bike (5700/5703 generation) with
-an FSA Gossamer crankset, the following tools cover most jobs.
+[![Decathlon bike tool box 900](../images/boite_outils_decathlon.png){#fig-decathlon-900}](https://decathlon.re/products/boite-a-outils-velo-900)
 
-| Tool | Typical use | Status |
+@fig-decathlon-900 is the published contents of the Decathlon 900 box:
+{{< glossary "chain tool" >}} (6–11 speed), hex keys, Torx T10–T30,
+{{< glossary "chain whip" >}}, Shimano HG {{< glossary "lockring tool" >}},
+and a {{< glossary chainring >}} nut wrench. Check the physical box
+before buying extras — the listed hex set often stops at 8 mm.
+
+::: {#fig-tool-mechanisms layout-ncol=2}
+
+![Chain tool: a punch drives a pin out of the chain](../images/tools/chain_tool.png){#fig-tool-chain}
+
+![Hex key and torque wrench: set newton-metres, then turn](../images/tools/hex_torque.png){#fig-tool-torque}
+
+![Chain whip holds the cassette; lockring tool turns the centre nut](../images/tools/cassette.png){#fig-tool-whip}
+
+![Chainring nut wrench holds the nut behind the ring](../images/tools/chainring_nut.png){#fig-tool-nut}
+
+How the main workshop tools act, simplified.
+
+:::
+
+| Category | Tool | Typical use |
 | --- | --- | --- |
-| Chain tool (6–11 s) | Shorten or remove chain | In Decathlon 900 box |
-| Hex keys | Derailleurs, chainrings | In box |
-| Chainring nut wrench | Hold nuts behind chainrings | In box |
-| Torx T30 | Some chainring bolts | In box |
-| Chain whip + Shimano HG lockring tool | Cassette removal | In box |
-| **10 mm hex key / bit** | FSA 30 mm crank bolt | **Add** |
-| **Torque wrench (≥ 41 Nm)** | Crank bolt at 38–41 Nm | **Add** |
-| Quick-link pliers | Chains with a master link | Recommended |
-| Bicycle grease | Axle, threads, chainring bolts | Recommended |
-| Cable cutters | Only if a cable is frayed | Optional |
+| Chain | Chain tool (6–11 s) | Shorten or open the chain |
+| Chain | Quick-link pliers | Open a quick-link |
+| Fasteners | Hex keys | Derailleurs, chainrings, stems |
+| Fasteners | Torx T30 | Some chainring bolts |
+| Fasteners | 10 mm hex key / bit | FSA 30 mm crank bolt |
+| Fasteners | Torque wrench (≥ 41 Nm) | Crank bolt at 38–41 Nm |
+| Drivetrain | Chainring nut wrench | Hold nuts behind chainrings |
+| Drivetrain | Chain whip + Shimano HG lockring tool | Cassette removal |
+| Consumables | Bicycle grease | Axle, threads, chainring bolts |
+| Consumables | Cable cutters | Only if a cable is frayed |
 
-Decathlon's published 900-box contents do not list a 10 mm hex key; their
-separate hex set stops at 8 mm — **check your physical box before
-buying**.
+: Workshop tools grouped by job. {#tbl-toolkit}
+
+Buy in addition: a **10 mm hex** and a {{< glossary "torque wrench" >}}
+that reaches **at least 41 Nm**. Quick-link pliers and grease are
+comfort, not strict necessities.
 
 ### Torque wrench note
 
 For an FSA 30 mm axle with a self-extracting bolt, FSA specifies a
-**10 mm hex** and **38–41 Nm** torque with a calibrated wrench.
+**10 mm hex** and **38–41 Nm** with a calibrated wrench.
 
 A compact 4–24 Nm wrench with a 10 mm bit is excellent for derailleurs
 and chainring bolts but **does not reach crank-bolt torque**. Prefer a

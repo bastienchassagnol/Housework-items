@@ -1,5 +1,5 @@
 ---
-title: "Household & bicycle maintenance"
+title: "How to read this book?"
 ---
 
 Practical checklists and maintenance notes for setting up a home,
@@ -8,8 +8,8 @@ working order.
 
 The book is organised in three parts:
 
-1. **Gardening and planting** — containers, substrate, crops, and
-   basic tools.
+1. **Gardening and planting** — containers, substrate, crops, herb
+   care on an east-facing balcony, and basic tools.
 2. **Interior DIY and equipment** — room-by-room shopping and setup
    lists for moving in.
 3. **Bicycle maintenance** — anatomy, brakes, gears, wheels and tyres,
@@ -30,4 +30,5 @@ flowchart LR
   D --> D3[Gears]
   D --> D4[Tyres & wheels]
   D --> D5[Steering]
+  D --> D6[Glossary]
 ```

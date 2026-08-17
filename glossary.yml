@@ -1,0 +1,90 @@
+# Bicycle technical terms (British English). French equivalent first in each
+# definition. Used by the quarto-glossary shortcode.
+
+cassette: |
+  **FR:** cassette. A stack of sprockets that slides onto a splined
+  freehub body. The ratchet is in the hub, not in the sprockets.
+  Typical on road and mountain bikes from the 1980s onward (7–12
+  speeds).
+
+freewheel: |
+  **FR:** roue libre. A one-piece threaded cluster: sprockets and
+  ratchet in a single body that screws onto a threaded hub. Common on
+  city bikes, BMX, singlespeed, and bikes older than the 1980s (up to
+  7–8 speeds).
+
+freehub body: |
+  **FR:** corps de cassette / corps de roue libre. The splined,
+  ratcheted drum built into a modern rear hub. The cassette slides
+  onto it and is held by a lockring.
+
+chainring: |
+  **FR:** plateau. Toothed ring bolted to the crank; the front half of
+  the gearing (e.g. 52/39/30 on a triple).
+
+crankset: |
+  **FR:** pédalier. Cranks plus chainrings (and, on some designs, the
+  axle). Removed with a crank extractor or, on FSA 30 mm axles, a
+  self-extracting 10 mm hex bolt.
+
+derailleur: |
+  **FR:** dérailleur. Mechanism that moves the chain between sprockets
+  (rear) or chainrings (front). Limit screws H and L set the outer and
+  inner travel.
+
+headset: |
+  **FR:** jeu de direction. Bearing assembly that lets the fork steer
+  in the head tube. Threaded (locknut plus adjusting cup) or
+  threadless (star nut or compression plug plus stem).
+
+torque wrench: |
+  **FR:** clé dynamométrique. Wrench that clicks or indicates at a set
+  newton-metre value. Needed for an FSA self-extracting crank bolt
+  (about 38–41 Nm).
+
+chain whip: |
+  **FR:** fouet à chaîne. Tool with a length of chain that holds the
+  cassette still while the lockring is undone.
+
+lockring tool: |
+  **FR:** démonte-cassette (Shimano HG). Splined tool that fits the
+  cassette lockring; turned anti-clockwise to remove. Distinct from a
+  freewheel remover (démonte-roue-libre).
+
+chain tool: |
+  **FR:** dérive-chaîne. Punch that drives a chain pin in or out so the
+  chain can be shortened or opened. The Decathlon 900 box covers 6–11
+  speeds.
+
+quick-link: |
+  **FR:** maillon rapide / attache rapide. Two-piece master link that
+  opens a chain without driving out a pin. Easier with quick-link
+  pliers (pince à maillon rapide).
+
+bottom bracket: |
+  **FR:** boîtier de pédalier. Bearings (and often cups) in the frame
+  that support the crank axle. BB30 keeps the bearings in the frame
+  shell.
+
+ETRTO: |
+  **FR:** ETRTO / ISO 5775. International tyre and rim size: width in
+  millimetres, then inner diameter in millimetres, e.g. 25-622. The
+  reliable number when buying tyres or tubes.
+
+spoke wrench: |
+  **FR:** clé à rayon. Small spanner that fits spoke nipples;
+  clockwise (from the rim) increases tension when truing a wheel.
+
+barrel adjuster: |
+  **FR:** molette de tension. Threaded barrel on a shifter or
+  derailleur that fine-tunes cable tension without undoing the pinch
+  bolt.
+
+hanger: |
+  **FR:** patte de dérailleur. Replaceable tab on the rear dropout
+  where the rear derailleur bolts on. Must be straight for clean
+  indexing.
+
+STI: |
+  **FR:** manette STI (Shimano Total Integration). Combined brake
+  lever and gear shifter on drop bars.

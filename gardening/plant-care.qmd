@@ -1,0 +1,234 @@
+---
+title: "Herb care on an east-facing balcony"
+---
+
+Notes for culinary herbs on a **ground-floor, east-facing balcony in
+Marseille** (Provençal south): strong morning sun, shade from midday
+onwards, hot dry summers, mild winters, and occasional Mistral.
+
+The morning sun is enough for Mediterranean herbs without the
+scorching west-facing afternoon that burns basil and parsley in July
+and August. Keep thyme in a **separate, drier pot**; grow basil, curly
+parsley, chives, and dill in richer, moister compost.
+
+```{mermaid}
+%%| label: fig-herb-pots
+%%| fig-cap: "Suggested pot grouping for an east-facing Marseille balcony."
+flowchart TD
+  A[East balcony — morning sun] --> B[Moist pot]
+  A --> C[Dry pot — thyme alone]
+  A --> D[Tall pot — dill]
+  B --> B1[Basil]
+  B --> B2[Curly parsley]
+  B --> B3[Chives]
+```
+
+## Site and watering {#sec-herb-site}
+
+- **Orientation:** east — water in the evening in midsummer, or in the
+  morning after the first hour of sun. Avoid wetting leaves in full
+  sun.
+- **Wind:** ground floor is calmer than upper storeys, but still
+  shelter dill and basil from a strong Mistral with the wall or a
+  light screen.
+- **Drainage:** every pot needs holes and a saucer; empty standing
+  water after watering so roots do not sit in a puddle.
+- **Summer rhythm:** basil and parsley almost daily in a heatwave;
+  chives every two days; thyme twice a week at most.
+
+## Basil {#sec-basil}
+
+*(basilic)*
+
+- **Light / heat:** morning sun; afternoon shade in Marseille is an
+  advantage. Bring the pot in if nights drop below about 10 °C.
+- **Water:** keep the compost evenly moist, never waterlogged. Wilt in
+  the afternoon is a cue to water that evening.
+- **Humidity:** mist leaves in very dry Mistral weather; good air
+  around the plant still matters (do not crowd).
+- **Support:** none. See **Trimming** below.
+- **Companions:** curly parsley and chives in the same wide pot.
+  Keep thyme out of this mix.
+
+### Trimming basil for harvest {#sec-basil-trim}
+
+Follow the node-and-pair method from
+[Les Sourciers — how to prune basil](https://lessourciers.com/fr/blog/2021/05/19/taille-basilic/).
+Leaves sit in **pairs** on the stem; at each node, small axillary
+buds can become new stems if you give them light.
+
+1. Wait until the main stem has at least two well-formed leaf pairs
+   with visible side buds.
+2. Cut **just above a pair of buds**, leaving almost no stub (a long
+   stub tends to rot).
+3. Prefer the **second** pair from the base for the first cut, so the
+   lower buds can thicken.
+4. Each cut yields two new stems; repeat the same cut on those stems
+   as they lengthen. That is how a single spike becomes a bush.
+5. Use the leafy tip you removed. Do not strip single leaves from
+   the lower stem — that is what produces a “bald stick”.
+
+Flowering does **not** reverse if you keep cutting: the plant has
+already switched. Stagger a second sowing for a continuous leaf crop.
+Flowering tops are still edible (oil, drying); the leaves remain
+edible but thinner.
+
+```{mermaid}
+%%| label: fig-basil-trim
+%%| fig-cap: "Basil: cut above a leaf-pair node so two side shoots take over."
+flowchart TD
+  A[Main stem with 2+ leaf pairs] --> B[Cut just above a node]
+  B --> C[Two axillary shoots grow]
+  C --> D[Repeat on each new stem]
+  D --> E[Bushy plant + harvested tips]
+```
+
+## Chives {#sec-chives}
+
+*(ciboulette)*
+
+- **Light:** morning sun; tolerates the east-facing shade later in the
+  day.
+- **Water:** moderate — let the top centimetre dry, then water.
+- **Care:** see **Trimming** below. Divide clumps in spring if the
+  pot is packed.
+- **Support:** none. A clump in a 15–20 cm pot is enough.
+- **Companions:** basil and parsley (they like similar moisture).
+
+### Trimming chives for harvest {#sec-chives-trim}
+
+Treat it like a haircut, as in
+[Les Sourciers — how to prune chives](https://lessourciers.com/fr/blog/2024/10/07/taille-ciboulette/):
+cut the whole tuft, do not pluck a few tubes.
+
+1. First cut when the leaves are about **15 cm**.
+2. In spring and summer, cut every **two weeks**.
+3. Shear **a few centimetres above the soil** with scissors or
+   secateurs. Leave that stub so the plant can regrow; cutting flush
+   often yellows the new shoots.
+4. In autumn, one shorter cut helps it into winter. In a Marseille
+   winter you can keep harvesting lightly; if a hard frost is
+   forecast, stop cutting and mulch the crown.
+5. If the clump is dense and stays wet, divide it: lift a wedge with
+   roots and pot it on. Crowded, uncut chives hold moisture and can
+   rot.
+
+Use the cut leaves fresh, freeze in portions, or dry. The purple
+flowers are edible.
+
+```{mermaid}
+%%| label: fig-chives-trim
+%%| fig-cap: "Chives: shear the tuft a few centimetres above the crown."
+flowchart TD
+  A[Leaves ~15 cm] --> B[Shear 2–3 cm above soil]
+  B --> C[Regrowth in ~2 weeks]
+  C --> B
+  B --> D[Divide if the clump is packed]
+```
+
+## Thyme {#sec-thyme}
+
+*(thym)*
+
+- **Light:** the most sun-hungry of this list; place at the brightest
+  edge of the balcony.
+- **Water:** spare. Allow the compost to dry between waterings.
+  Overwatering in a saucer is the usual way to lose thyme here.
+- **Substrate:** grittier mix (potting compost plus sand or fine
+  gravel). No rich nitrogen feed.
+- **Support:** none. See **Trimming** below.
+- **Companions:** grow **alone**. It wants drier roots than basil,
+  parsley, and dill.
+
+### Trimming thyme for harvest {#sec-thyme-trim}
+
+Thyme lignifies: old brown wood will not resprout.
+
+1. Snip **green tips** only, just above a leaf node, as if taking
+   cuttings. Never cut back into bare wood.
+2. After flowering, a light all-over trim of the green growth keeps
+   the mound dense.
+3. Do not “mow” the plant to a stump. If it becomes woody and sparse,
+   start a new plant from a tip cutting rather than hard-pruning.
+4. Harvest little and often through the growing season; a large
+   one-off cut in midsummer can kill a pot-grown plant in heat.
+
+## Dill {#sec-dill}
+
+*(aneth)*
+
+- **Light:** morning sun; it bolts (runs to flower) fast in Marseille
+  heat, so successive small sowings work better than one large plant.
+- **Water:** regular, like parsley; do not let the pot bake.
+- **Support:** stems are brittle — a thin cane or a ring of string
+  once the plant is above about 30 cm.
+- **Care:** see **Trimming** below.
+- **Companions:** own pot. Dill can inhibit some neighbours and grows
+  tall enough to shade basil.
+
+### Trimming dill for harvest {#sec-dill-trim}
+
+Dill is a short-lived annual. You harvest foliage; you cannot turn
+it into a perennial bush like basil.
+
+1. Take **young leaves** by snipping whole side stems, not by
+   stripping the main axis bald.
+2. For a leaf crop, cut before the flower umbel opens — flavour
+   drops and the plant then puts energy into seed.
+3. Leave one plant to flower if you want seeds (pickles) or to feed
+   hoverflies.
+4. In Marseille heat it bolts fast: sow a pinch every two to three
+   weeks rather than relying on one plant.
+5. When a stem is for the vase or the kitchen, cut it near the base;
+   the remaining seedlings in the pot will take over.
+
+## Curly parsley {#sec-parsley}
+
+*(persil frisé)*
+
+- **Light:** morning sun and afternoon shade suit it; it scorches in
+  full south or west sun in July.
+- **Water:** never let the compost dry out. Deep pot (taproot): 20 cm
+  or more.
+- **Humidity:** appreciates a light mist in dry wind, like basil.
+- **Support:** none. See **Trimming** below.
+- **Companions:** basil and chives. Slow to germinate — buy a seedling
+  if you want a crop this month.
+
+### Trimming curly parsley for harvest {#sec-parsley-trim}
+
+Parsley grows from a central crown. If you cut that, the plant stops.
+
+1. Always take **outer stems**, cutting them at the base (soil
+   level), not halfway up the stalk.
+2. Leave the inner, paler shoots — they are next week’s leaves.
+3. Harvest regularly; neglected plants send up a flower stalk
+   (biennial) and then the leaf quality falls.
+4. If a flower stalk appears, cut it out at the base unless you want
+   seed. Start a replacement pot: parsley in a container is not
+   worth keeping once it has bolted in summer heat.
+
+## Quick reference {#sec-herb-table}
+
+| Herb | Moisture | Harvest cut | Same pot as |
+| --- | --- | --- | --- |
+| Basil | High | Above a leaf-pair node | Parsley, chives |
+| Chives | Medium | Shear 2–3 cm above soil | Basil, parsley |
+| Thyme | Low | Green tips only; never old wood | Alone |
+| Dill | Medium–high | Side stems; before the umbel | Alone |
+| Curly parsley | High | Outer stems at the crown | Basil, chives |
+
+: Herb care on an east-facing Marseille balcony. {#tbl-herb-care}
+
+```{mermaid}
+%%| label: fig-herb-week
+%%| fig-cap: "Weekly care loop in a Marseille summer."
+flowchart LR
+  A[Morning sun on balcony] --> B{Compost dry?}
+  B -->|Basil / parsley / dill| C[Water that evening]
+  B -->|Chives| D[Water if top cm is dry]
+  B -->|Thyme| E[Wait — water twice a week]
+  C --> F[Trim basil at a node; shear chives; outer parsley stems]
+  D --> F
+  E --> G[Do not feed thyme]
+```

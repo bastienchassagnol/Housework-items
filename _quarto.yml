@@ -10,28 +10,32 @@ project:
   render:
     - index.qmd
     - gardening/checklists.qmd
+    - gardening/plant-care.qmd
     - interior/equipment-lists.qmd
     - biking/bike-overview.qmd
     - biking/brakes.qmd
     - biking/gears.qmd
     - biking/tyres-wheels.qmd
     - biking/steering.qmd
+    - biking/glossary.qmd
 
 # =========================
 # Book metadata and order
 # =========================
 book:
-  title: "Household & bicycle maintenance"
+  title: "How to read this book?"
   description: >
-    Checklists for home setup, gardening, and practical bicycle
-    maintenance notes.
+    Practical checklists and maintenance notes for setting up a home,
+    gardening on a balcony or small plot, and keeping a road bike in
+    good working order.
   author: "Bastien Chassagnol"
-  output-file: housework-items
+  output-file: how-to-read-this-book
   chapters:
     - index.qmd
     - part: "Gardening and planting"
       chapters:
         - gardening/checklists.qmd
+        - gardening/plant-care.qmd
     - part: "Interior DIY and equipment"
       chapters:
         - interior/equipment-lists.qmd
@@ -42,12 +46,15 @@ book:
         - biking/gears.qmd
         - biking/tyres-wheels.qmd
         - biking/steering.qmd
+        - biking/glossary.qmd
   repo-url: https://github.com/bastienchassagnol/Housework-items
   site-url: https://bastienchassagnol.github.io/Housework-items/
   repo-branch: main
   repo-actions: [edit, issue, source]
   open-graph: true
   downloads: [pdf]
+  comments:
+    hypothesis: true
   page-footer:
     center: |
       Built with <a href="https://quarto.org/">Quarto</a>.
@@ -84,6 +91,11 @@ format:
     code-overflow: wrap
     crossrefs-hover: true
     footnotes-hover: true
+    mermaid:
+      theme: default
+    include-after-body: html/mermaid-after-body.html
+    comments:
+      hypothesis: true
   typst:
     papersize: a4
     margin:
@@ -95,10 +107,10 @@ format:
 # =========================
 execute:
   echo: false
-  eval: false
+  eval: true
   message: false
   warning: false
-  error: false
+  error: true
   freeze: auto
 
 # =========================
@@ -112,6 +124,15 @@ editor:
 # =========================
 crossref:
   chapters: true
+
+# =========================
+# Glossary (HTML popups)
+# =========================
+# https://debruine.github.io/quarto-glossary/
+glossary:
+  path: glossary.yml
+  popup: click
+  show: true
 
 # =========================
 # Metadata

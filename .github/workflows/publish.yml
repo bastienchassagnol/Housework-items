@@ -5,8 +5,6 @@ on:
 
 name: Quarto Publish
 
-# Typst renders in seconds; LaTeX auto-install can exceed the default
-# 6-hour limit on free runners when combined with many Mermaid figures.
 concurrency:
   group: gh-pages
   cancel-in-progress: true
@@ -19,12 +17,13 @@ jobs:
       contents: write
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-          version: ">=1.9.0"
+          version: release
+          tinytex: false
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2

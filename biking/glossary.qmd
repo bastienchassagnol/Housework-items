@@ -1,0 +1,28 @@
+---
+title: "Bicycle glossary"
+---
+
+Technical terms used in the bicycle chapters, with a French equivalent
+in each definition. In the HTML edition, click an underlined term for
+the popup.
+
+{{< glossary cassette popup="none" >}},
+{{< glossary freewheel popup="none" >}},
+{{< glossary "freehub body" popup="none" >}},
+{{< glossary chainring popup="none" >}},
+{{< glossary crankset popup="none" >}},
+{{< glossary derailleur popup="none" >}},
+{{< glossary headset popup="none" >}},
+{{< glossary "torque wrench" popup="none" >}},
+{{< glossary "chain whip" popup="none" >}},
+{{< glossary "lockring tool" popup="none" >}},
+{{< glossary "chain tool" popup="none" >}},
+{{< glossary quick-link popup="none" >}},
+{{< glossary "bottom bracket" popup="none" >}},
+{{< glossary ETRTO popup="none" >}},
+{{< glossary "spoke wrench" popup="none" >}},
+{{< glossary "barrel adjuster" popup="none" >}},
+{{< glossary hanger popup="none" >}},
+{{< glossary STI popup="none" >}}.
+
+{{< glossary table=true >}}

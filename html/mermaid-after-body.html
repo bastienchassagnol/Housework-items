@@ -1,0 +1,86 @@
+<script>
+/**
+ * Client-side Mermaid fallback, adapted from DeCovarT
+ * pkgdown/assets/mermaid-init.js. Inlined so nested book pages work.
+ * Quarto already ships site_libs/quarto-diagram/mermaid.min.js; we only
+ * fetch mermaid@11 from the CDN if that copy is missing, and we only
+ * touch <pre class="mermaid"> blocks that still have no SVG.
+ */
+(function () {
+  function stripQuartoInit(text) {
+    return String(text || "")
+      .replace(/^\s*%%\{init:[\s\S]*?\}%%\s*/m, "")
+      .trim();
+  }
+
+  function collect() {
+    var out = [];
+    document.querySelectorAll("pre.mermaid, pre.mermaid-js").forEach(function (pre) {
+      if (pre.querySelector("svg")) return;
+      out.push(pre);
+    });
+    document.querySelectorAll(
+      "pre code.language-mermaid, pre code.mermaid, pre code[class*='language-mermaid']"
+    ).forEach(function (code) {
+      var pre = code.closest("pre");
+      if (!pre || pre.querySelector("svg")) return;
+      if (out.indexOf(pre) === -1) out.push(pre);
+    });
+    return out;
+  }
+
+  function textOf(pre) {
+    var code = pre.querySelector("code");
+    return stripQuartoInit(code ? code.textContent : pre.textContent);
+  }
+
+  function withMermaid(cb) {
+    if (window.mermaid) {
+      cb();
+      return;
+    }
+    var s = document.createElement("script");
+    s.src = "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js";
+    s.onload = cb;
+    document.head.appendChild(s);
+  }
+
+  async function run() {
+    var pres = collect();
+    if (!pres.length) return;
+    withMermaid(async function () {
+      if (!window.mermaid) return;
+      window.mermaid.initialize({
+        startOnLoad: false,
+        theme: "neutral",
+        securityLevel: "loose",
+        flowchart: { htmlLabels: true, curve: "basis" }
+      });
+      var nodes = pres.map(function (pre, i) {
+        var div = document.createElement("div");
+        div.className = "mermaid";
+        div.id = "book-mermaid-" + i;
+        div.textContent = textOf(pre);
+        pre.replaceWith(div);
+        return div;
+      });
+      try {
+        await window.mermaid.run({ nodes: nodes });
+      } catch (e) {
+        console.warn("Mermaid render failed:", e);
+      }
+    });
+  }
+
+  function start() {
+    // Let Quarto's quarto-diagram mermaid-init.js run first.
+    setTimeout(run, 100);
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", start);
+  } else {
+    start();
+  }
+})();
+</script>

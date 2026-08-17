@@ -2,21 +2,21 @@
 title: "Tyres and wheels"
 ---
 
-Wheel truing, cassette removal, and tyre basics.
+Wheel truing and tyre basics.
 
 ## Wheel truing {#sec-truing}
 
 ### Tools
 
-![Spoke wrench icon](../images/media/image6.png){width=15%}
+![Spoke wrench icon](../images/media/image6.png){#fig-spoke-wrench width=15%}
 
-- Spoke wrench (correct size for your nipples)
+- {{< glossary "spoke wrench" >}} (correct size for your nipples)
 - Truing stand or frame as a guide
 - Dish gauge (optional) — checks rim centreing on the hub
 - Lateral indicator — measures **lateral run-out** ("dish" error in the
   sideways plane)
 
-![Truing stand and indicators](../images/media/image9.png){width=70%}
+![Truing stand and indicators](../images/media/image9.png){#fig-truing-stand width=70%}
 
 ### Truing procedure
 
@@ -46,32 +46,42 @@ flowchart TD
   F -->|Yes| G[Check dish & spoke tension balance]
 ```
 
-## Cassette removal {#sec-cassette}
-
-Identify whether you have a **cassette** (modern freehub) or a **freewheel**
-(screw-on, common on ≤ 7-speed bikes).
-
-Video: [cassette removal](https://youtu.be/SaGTwaI-a6A)
-
-1. Fit the chain whip to hold the sprockets.
-2. Insert the lockring tool and turn the lockring **anti-clockwise**.
-
-![Chain whip and lockring tool](../images/media/image11.png){width=45%}
-![Removing a cassette](../images/media/image12.jpeg){width=45%}
-
-```{mermaid}
-%%| label: fig-cassette-removal
-%%| fig-cap: "Cassette removal on a Shimano HG freehub."
-flowchart LR
-  A[Remove rear wheel] --> B[Remove quick-release skewer / thru-axle]
-  B --> C[Wrap chain whip on largest sprocket]
-  C --> D[Insert HG lockring tool]
-  D --> E[Turn lockring anti-clockwise]
-  E --> F[Slide cassette off splines]
-  F --> G[Clean freehub body]
-```
-
 ## Tyres {#sec-tyres}
+
+### Size markings: ETRTO, French, and inch {#sec-tyre-sizes}
+
+Three conventions appear on sidewalls. They do **not** measure the same
+thing, which is why a “26 inch” tyre may not fit another “26 inch”
+rim. Prefer the {{< glossary ETRTO >}} pair (ISO 5775) when buying
+tyres or tubes: **width (mm)–inner diameter (mm)**.
+
+[![French, inch, and ETRTO tyre markings](../images/tyre_sizes_explanation.jpeg){#fig-tyre-standards}](https://icancycling.com/blogs/articles/what-do-the-various-size-specifications-on-bicycle-tires-mean)
+
+| System | Example | What the numbers mean | Typical use |
+| --- | --- | --- | --- |
+| French | `700x25C` | Nominal outer diameter ~700 mm × width ~25 mm; letter is the old width class | Road |
+| Inch | `26x2.1` | Nominal outer diameter (inches) × width (inches) | Mountain, leisure |
+| ETRTO / ISO | `25-622` | Inflated width (mm) – bead-seat / inner diameter (mm) | International, tubes |
+
+: How the three tyre-size conventions map onto one another. {#tbl-tyre-systems}
+
+The French system uses the tyre’s **outer** diameter; ETRTO uses the
+**inner** (bead-seat) diameter. That is why a road `700C` and a
+mountain-bike `29er` share **622 mm** in ETRTO, and why `27.5"` /
+`650B` is **584 mm**. Inch markings are the least precise: historically
+several incompatible “26 inch” bead seats existed.
+
+[![ETRTO inner diameter versus French and inch names](../images/bike_size_dimensions.png){#fig-tyre-dimensions}](https://icancycling.com/blogs/articles/what-do-the-various-size-specifications-on-bicycle-tires-mean)
+
+Width on the sidewall is only a guide: the same tyre sits wider or
+narrower on a different internal rim width. Match the tyre to the
+**internal** rim width rather than the marketing size alone.
+
+[![Tyre width versus internal rim width](../images/bike_size_chart.png){#fig-tyre-rim-chart}](https://icancycling.com/blogs/articles/what-do-the-various-size-specifications-on-bicycle-tires-mean)
+
+For a 25 mm road tyre on a 622 mm bead, the sidewall should read
+something like **700×25C** and **25-622**. When in doubt, quote the
+ETRTO pair to the shop.
 
 ### Routine checks
 
@@ -106,3 +116,5 @@ flowchart TD
 | Squared-off tread profile | Replace tyre |
 | Visible casing threads | Replace immediately |
 | Age > 3–5 years (garage storage) | Consider replacement even if tread looks fine |
+
+: When to replace a road tyre. {#tbl-tyre-replace}
