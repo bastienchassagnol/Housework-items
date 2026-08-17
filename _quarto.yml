@@ -93,7 +93,6 @@ format:
     footnotes-hover: true
     mermaid:
       theme: default
-    include-after-body: html/mermaid-after-body.html
     comments:
       hypothesis: true
   typst:
