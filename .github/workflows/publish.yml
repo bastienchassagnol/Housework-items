@@ -19,15 +19,14 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v5
 
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
-        with:
-          version: release
-          tinytex: false
+      - name: Install Quarto
+        run: |
+          QUARTO_VERSION="1.9.20"
+          curl -fsSL -o /tmp/quarto.tar.gz "https://github.com/quarto-dev/quarto-cli/releases/download/v${QUARTO_VERSION}/quarto-${QUARTO_VERSION}-linux-amd64.tar.gz"
+          tar -xzf /tmp/quarto.tar.gz -C /tmp
+          echo "/tmp/quarto-${QUARTO_VERSION}/bin" >> "$GITHUB_PATH"
 
-      - name: Render and Publish
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: gh-pages
+      - name: Render and publish
+        run: quarto publish gh-pages --no-browser --no-prompt
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
