@@ -13,13 +13,16 @@ as a [Quarto book](https://quarto.org/docs/books/).
 
 ## Local build
 
-Requires [Quarto](https://quarto.org/docs/get-started/) ≥ 1.4.
+Requires [Quarto](https://quarto.org/docs/get-started/) ≥ 1.9 (Typst book
+support).
 
 ```bash
 quarto render
 ```
 
-HTML and PDF output land in `_book/`.
+HTML and Typst PDF output land in `_book/`. The PDF uses Quarto's bundled
+[orange-book](https://github.com/quarto-ext/orange-book) Typst template
+for book projects — see the [Typst books announcement](https://opensource.posit.co/blog/2026-03-31_typst-books-and-more/).
 
 ## Publishing
 

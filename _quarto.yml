@@ -60,7 +60,7 @@ book:
 # =========================
 # Shared document defaults
 # =========================
-quarto-required: ">= 1.8.0"
+quarto-required: ">= 1.9.0"
 toc: true
 toc-depth: 4
 number-sections: true
@@ -84,12 +84,11 @@ format:
     code-overflow: wrap
     crossrefs-hover: true
     footnotes-hover: true
-  pdf:
-    documentclass: scrbook
-    pdf-engine: lualatex
-    monofont: "DejaVu Sans Mono"
-    latex-auto-install: true
-    latex-max-runs: 5
+  typst:
+    papersize: a4
+    margin:
+      x: 2cm
+      y: 2.5cm
 
 # =========================
 # Filters and execution
