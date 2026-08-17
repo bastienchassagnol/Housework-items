@@ -358,3 +358,57 @@ Step-by-step:
     previous length was correct; respect directional markings.
 11. **Test** — the front derailleur should need little change if
     tooth counts stay 52/39/30.
+
+## Zoom on Ultegra gear shift {#sec-ultegra-shift}
+
+The right-hand {{< glossary STI >}} lever indexes the rear derailleur;
+the left indexes the front. These notes cover a 10-speed Shimano lever
+of the same generation as the 105 triple above. Bar-clamp and cable
+work overlap with @sec-brake-levers.
+
+![Servicing a right-hand Shimano 105 ST-5600 FlightDeck STI lever](../images/demontage_renovation_ultegra.png){#fig-ultegra-teardown width=90%}
+
+@fig-ultegra-teardown is a workshop teardown of a right-hand 105
+ST-5600 FlightDeck lever. The ratchet and pawls are the same 10-speed
+STI architecture as Ultegra of that era. Open the lever only if
+indexing feels gritty after a cable change:
+
+- Keep the tiny spacers, star washer, and square lock washer together.
+- Clean grit with solvent; **do not bend the fine pawl spring**.
+- Relubricate the ratchet with a **light oil film**. Grease packs the
+  pawls and makes shifts sticky.
+
+Refit the hood and test every click plus brake return before wrapping
+the bar.
+
+![Exploded view and install sequence for a right-hand Ultegra dual-control lever](../images/description_montage.svg){#fig-ultegra-install-parts width=90%}
+
+@fig-ultegra-install-parts is the parts legend and install sequence.
+Mount the lever before cabling:
+
+1. Peel the hood back to expose the clamp band.
+2. Align both levers on the drops, then torque the clamp bolt to
+   **6–8 Nm**. Check that the body sits square on the bar before the
+   final tighten.
+3. Fit the **brake** inner first (**1.6 mm** inner, **5 mm** outer),
+   with the nipple fully seated in the lever.
+4. Shift to the smallest sprocket, grease the pawl area with Shimano
+   SIS SP41, then fit the **gear** inner (**1.2 mm** inner, **4 mm**
+   outer) into the cable hook unit.
+
+![Workshop sheet for mounting a right-hand Ultegra shifter and fitting cables](../images/montage_ultegra_ai_generated.png){#fig-ultegra-install width=90%}
+
+@fig-ultegra-install is a compact sheet of the same three blocks:
+clamp, brake cable, gear cable. Use it at the bench as a checklist;
+use @fig-ultegra-install-parts when a part name or seating diagram is
+unclear.
+
+Before wrapping the bar, confirm:
+
+- both levers travel fully, with clean upshifts and downshifts;
+- inners run freely and every outer-casing end is seated;
+- the hoods sit neatly and the levers are square to each other.
+
+See [@fig-ultegra-teardown; @fig-ultegra-install-parts; @fig-ultegra-install]
+for the teardown, the exploded install diagram, and the compact
+workshop sheet.

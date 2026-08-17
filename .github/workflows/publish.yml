@@ -24,6 +24,9 @@ jobs:
         with:
           version: pre-release
 
+      - name: Install Chrome Headless Shell
+        run: quarto install chrome-headless-shell --no-prompt
+
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:

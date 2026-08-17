@@ -110,7 +110,7 @@ execute:
   message: false
   warning: false
   error: true
-  freeze: auto
+  freeze: true
 
 # =========================
 # Editor preferences
