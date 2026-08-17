@@ -1,0 +1,441 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Household & bicycle maintenance",
+    "section": "",
+    "text": "Practical checklists and maintenance notes for setting up a home, gardening on a balcony or small plot, and keeping a road bike in good working order.\nThe book is organised in three parts:\n\nGardening and planting — containers, substrate, crops, and basic tools.\nInterior DIY and equipment — room-by-room shopping and setup lists for moving in.\nBicycle maintenance — anatomy, brakes, gears, wheels and tyres, and steering adjustment.\n\nAll lists use GitHub-style task checkboxes (- [ ] / - [x]) so you can tick items off as you go.\n\n\n\n\n\n\n\n\n\n\nFigure 1: High-level structure of this book.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Household & bicycle maintenance</span>"
+    ]
+  },
+  {
+    "objectID": "gardening/checklists.html",
+    "href": "gardening/checklists.html",
+    "title": "2  Gardening checklists",
+    "section": "",
+    "text": "2.1 Containers\nEquipment and planting lists for balcony or small-space gardening. Incorporated from issue #2.",
+    "crumbs": [
+      "Gardening and planting",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Gardening checklists</span>"
+    ]
+  },
+  {
+    "objectID": "gardening/checklists.html#sec-garden-containers",
+    "href": "gardening/checklists.html#sec-garden-containers",
+    "title": "2  Gardening checklists",
+    "section": "",
+    "text": "Flower pots (assorted sizes)\nWindow boxes for balcony ledges\nDeep grow bags / planter tubs (ideal for tomatoes), 30 L minimum\nHanging pots to save space\nSaucers under pots (to catch runoff)",
+    "crumbs": [
+      "Gardening and planting",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Gardening checklists</span>"
+    ]
+  },
+  {
+    "objectID": "gardening/checklists.html#sec-garden-substrate",
+    "href": "gardening/checklists.html#sec-garden-substrate",
+    "title": "2  Gardening checklists",
+    "section": "2.2 Substrate",
+    "text": "2.2 Substrate\n\nPotting compost\nCompost (soil improver)\nMulch (straw or bark chips)\nLiquid vegetable fertiliser",
+    "crumbs": [
+      "Gardening and planting",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Gardening checklists</span>"
+    ]
+  },
+  {
+    "objectID": "gardening/checklists.html#sec-garden-crops",
+    "href": "gardening/checklists.html#sec-garden-crops",
+    "title": "2  Gardening checklists",
+    "section": "2.3 Vegetables and herbs",
+    "text": "2.3 Vegetables and herbs\n\nCherry tomatoes, radishes, lettuces, chillies or small peppers\nAromatic herbs: basil, parsley, thyme, rosemary, mint, chives\nUseful or decorative flowers: nasturtiums, French marigolds, petunias, geraniums",
+    "crumbs": [
+      "Gardening and planting",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Gardening checklists</span>"
+    ]
+  },
+  {
+    "objectID": "gardening/checklists.html#sec-garden-supports",
+    "href": "gardening/checklists.html#sec-garden-supports",
+    "title": "2  Gardening checklists",
+    "section": "2.4 Supports",
+    "text": "2.4 Supports\n\nStakes or netting for climbing plants",
+    "crumbs": [
+      "Gardening and planting",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Gardening checklists</span>"
+    ]
+  },
+  {
+    "objectID": "gardening/checklists.html#sec-garden-tools",
+    "href": "gardening/checklists.html#sec-garden-tools",
+    "title": "2  Gardening checklists",
+    "section": "2.5 Gardening tools",
+    "text": "2.5 Gardening tools\n\nTrowel (hand transplanting spade)\nHand cultivator (garden claw)\nWatering can\nSpray bottle (for misting leaves)\n\n\n\n\n\n\n\n\n\n\n\nFigure 2.1: Simple planting workflow for balcony crops.",
+    "crumbs": [
+      "Gardening and planting",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Gardening checklists</span>"
+    ]
+  },
+  {
+    "objectID": "interior/equipment-lists.html",
+    "href": "interior/equipment-lists.html",
+    "title": "3  Interior equipment lists",
+    "section": "",
+    "text": "3.1 Temporary actions\nRoom-by-room checklists for furnishing and stocking a flat. Incorporated from issue #1.",
+    "crumbs": [
+      "Interior DIY and equipment",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Interior equipment lists</span>"
+    ]
+  },
+  {
+    "objectID": "interior/equipment-lists.html#sec-interior-temporary",
+    "href": "interior/equipment-lists.html#sec-interior-temporary",
+    "title": "3  Interior equipment lists",
+    "section": "",
+    "text": "Wardrobe kit with curtain",
+    "crumbs": [
+      "Interior DIY and equipment",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Interior equipment lists</span>"
+    ]
+  },
+  {
+    "objectID": "interior/equipment-lists.html#sec-interior-kitchen",
+    "href": "interior/equipment-lists.html#sec-interior-kitchen",
+    "title": "3  Interior equipment lists",
+    "section": "3.2 Kitchen furniture and appliances",
+    "text": "3.2 Kitchen furniture and appliances\n\nFridge + freezer\nMicrowave\nOven\nHob (induction adapter if needed)\nKitchen table + chairs\nMeasuring jug\nCoffee maker\nKettle\nPlacemats, boards\nBowls, glasses, mugs\nCutlery, and spatulas (wood and plastic) / ladle\nPlates\nMixing bowl (salad bowl)\nFrying pans\nSaucepans\nLids\nVegetable peeler\nElectric hand mixer\nBlender\nFood processor\nGrater\nColander\nDraining rack\nTea towels\nWashing-up liquid\nSoap\nKitchen scales\nWhisk\nAluminium foil, baking parchment, baking paper\nKnife sharpener\nBin + bin bags\nChopping board",
+    "crumbs": [
+      "Interior DIY and equipment",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Interior equipment lists</span>"
+    ]
+  },
+  {
+    "objectID": "interior/equipment-lists.html#sec-interior-food",
+    "href": "interior/equipment-lists.html#sec-interior-food",
+    "title": "3  Interior equipment lists",
+    "section": "3.3 Food (to get started)",
+    "text": "3.3 Food (to get started)\n\nOil, spices (pepper, curry, paprika), salt\nGarlic, onions, shallots\nPotatoes\nIce packs\nFlour, sugar\nPasta, rice\nPâté, cured sausages\nJam\nBaking kit (vanilla, yeast)\nHoney\nCoffee, herbal teas\nSingle-portion tinned goods",
+    "crumbs": [
+      "Interior DIY and equipment",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Interior equipment lists</span>"
+    ]
+  },
+  {
+    "objectID": "interior/equipment-lists.html#sec-interior-bedroom",
+    "href": "interior/equipment-lists.html#sec-interior-bedroom",
+    "title": "3  Interior equipment lists",
+    "section": "3.4 Bedding and bedroom",
+    "text": "3.4 Bedding and bedroom\n\nWardrobe for clothes + hangers\nBed (base + mattress)\nDuvet and sheet\nPillows and pillowcases\nBedside table\nLamp (second lamp)\nCamp beds\nSofa bed (fold-out)\nShoe storage furniture\nPlastic crates / stacking towers",
+    "crumbs": [
+      "Interior DIY and equipment",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Interior equipment lists</span>"
+    ]
+  },
+  {
+    "objectID": "interior/equipment-lists.html#sec-interior-bathroom",
+    "href": "interior/equipment-lists.html#sec-interior-bathroom",
+    "title": "3  Interior equipment lists",
+    "section": "3.5 Bathroom and shower",
+    "text": "3.5 Bathroom and shower\n\nBrush\nMop (bucket) + dustpan and brush\nVacuum cleaner\nBath mat\nFirst-aid kit + sun cream\nPlasters + antiseptic\nToothbrush, nail clippers, safety pin, toothpaste\nRazor (manual + electric), shaving foam\nBathroom scales\nFloor cleaner\nToilet cleaner (drains) and/or limescale remover\n(wood cleaner)\nGlass cleaner\nWhite vinegar + bicarbonate of soda\nLaundry detergent\nWashing machine\nClothes airers\nShower curtain, rail\nLaundry basket\nToilet paper\nGloves and towels",
+    "crumbs": [
+      "Interior DIY and equipment",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Interior equipment lists</span>"
+    ]
+  },
+  {
+    "objectID": "interior/equipment-lists.html#sec-interior-clothing",
+    "href": "interior/equipment-lists.html#sec-interior-clothing",
+    "title": "3  Interior equipment lists",
+    "section": "3.6 Clothing and sport",
+    "text": "3.6 Clothing and sport\n\nUnderwear\nRain clothing\nSportswear\nSummer clothing\nCasual wear (baggy trousers, jumpers)\nSuit\nShoes (3 pairs)\nHydration pack\nBicycles + locks + helmet + gloves + cap\nWater bottles and thermos flasks\nSlippers and flip-flops\nSwimming gear",
+    "crumbs": [
+      "Interior DIY and equipment",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Interior equipment lists</span>"
+    ]
+  },
+  {
+    "objectID": "interior/equipment-lists.html#sec-interior-work",
+    "href": "interior/equipment-lists.html#sec-interior-work",
+    "title": "3  Interior equipment lists",
+    "section": "3.7 Work",
+    "text": "3.7 Work\n\nComputers\nExtension lead and chargers\nGraphics tablet\nNotebooks, pencil case, stamps, envelopes\nDesk, lamp, office chair\nExternal hard drive, power bank\nHeadphones",
+    "crumbs": [
+      "Interior DIY and equipment",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Interior equipment lists</span>"
+    ]
+  },
+  {
+    "objectID": "interior/equipment-lists.html#sec-interior-leisure",
+    "href": "interior/equipment-lists.html#sec-interior-leisure",
+    "title": "3  Interior equipment lists",
+    "section": "3.8 Leisure",
+    "text": "3.8 Leisure\n\nElectronic kit (chargers, Ethernet cable, …)\nHiking rucksack\nHiking equipment (head torch, …)\nBicycle, bottle, repair kit, track pump\nDIY tools\nBooks + bookcase\nBoard games, playing cards",
+    "crumbs": [
+      "Interior DIY and equipment",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Interior equipment lists</span>"
+    ]
+  },
+  {
+    "objectID": "biking/bike-overview.html",
+    "href": "biking/bike-overview.html",
+    "title": "4  Bike overview and equipment",
+    "section": "",
+    "text": "4.1 Pedal orientation and thread direction\nGeneral anatomy notes, pedal fitting, and the toolkit required for routine maintenance. Based on personal notes (vélo astuces.docx).\nThe left pedal sits on the opposite side of the bottom bracket shell (i.e. on your left when you mount the bike).\nFigure 4.2: Pedal thread directions (viewed from the outside of the crank).",
+    "crumbs": [
+      "Bicycle maintenance",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bike overview and equipment</span>"
+    ]
+  },
+  {
+    "objectID": "biking/bike-overview.html#sec-pedals",
+    "href": "biking/bike-overview.html#sec-pedals",
+    "title": "4  Bike overview and equipment",
+    "section": "",
+    "text": "Figure 4.1: Which way to turn a screw\n\n\n\n\nFitting: the right pedal tightens clockwise; the left pedal tightens anti-clockwise.\nRemoval: the right pedal loosens anti-clockwise (the opposite of normal right-hand threads).",
+    "crumbs": [
+      "Bicycle maintenance",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bike overview and equipment</span>"
+    ]
+  },
+  {
+    "objectID": "biking/bike-overview.html#sec-toolkit",
+    "href": "biking/bike-overview.html#sec-toolkit",
+    "title": "4  Bike overview and equipment",
+    "section": "4.2 Essential toolkit",
+    "text": "4.2 Essential toolkit\nFor a Shimano 105 triple 10-speed road bike (5700/5703 generation) with an FSA Gossamer crankset, the following tools cover most jobs.\n\n\n\nTool\nTypical use\nStatus\n\n\n\n\nChain tool (6–11 s)\nShorten or remove chain\nIn Decathlon 900 box\n\n\nHex keys\nDerailleurs, chainrings\nIn box\n\n\nChainring nut wrench\nHold nuts behind chainrings\nIn box\n\n\nTorx T30\nSome chainring bolts\nIn box\n\n\nChain whip + Shimano HG lockring tool\nCassette removal\nIn box\n\n\n10 mm hex key / bit\nFSA 30 mm crank bolt\nAdd\n\n\nTorque wrench (≥ 41 Nm)\nCrank bolt at 38–41 Nm\nAdd\n\n\nQuick-link pliers\nChains with a master link\nRecommended\n\n\nBicycle grease\nAxle, threads, chainring bolts\nRecommended\n\n\nCable cutters\nOnly if a cable is frayed\nOptional\n\n\n\nDecathlon’s published 900-box contents do not list a 10 mm hex key; their separate hex set stops at 8 mm — check your physical box before buying.\n\n4.2.1 Torque wrench note\nFor an FSA 30 mm axle with a self-extracting bolt, FSA specifies a 10 mm hex and 38–41 Nm torque with a calibrated wrench.\nA compact 4–24 Nm wrench with a 10 mm bit is excellent for derailleurs and chainring bolts but does not reach crank-bolt torque. Prefer a 3/8″ or 1/4″+3/8″ wrench covering roughly 5–50 Nm or 5–60 Nm with a 10 mm hex bit.",
+    "crumbs": [
+      "Bicycle maintenance",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bike overview and equipment</span>"
+    ]
+  },
+  {
+    "objectID": "biking/bike-overview.html#sec-anatomy",
+    "href": "biking/bike-overview.html#sec-anatomy",
+    "title": "4  Bike overview and equipment",
+    "section": "4.3 Bike anatomy (road)",
+    "text": "4.3 Bike anatomy (road)\n\n\n\n\n\n\n\n\n\n\nFigure 4.3: Main components referenced in this part of the book.",
+    "crumbs": [
+      "Bicycle maintenance",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bike overview and equipment</span>"
+    ]
+  },
+  {
+    "objectID": "biking/bike-overview.html#sec-riding-kit",
+    "href": "biking/bike-overview.html#sec-riding-kit",
+    "title": "4  Bike overview and equipment",
+    "section": "4.4 Required riding equipment",
+    "text": "4.4 Required riding equipment\n\nHelmet\nFront and rear lights\nLock(s)\nGloves\nWater bottles or hydration pack\nMini pump or CO2 inflator\nSpare inner tube and tyre levers\nMulti-tool and quick-link\nMudguards (wet weather)",
+    "crumbs": [
+      "Bicycle maintenance",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bike overview and equipment</span>"
+    ]
+  },
+  {
+    "objectID": "biking/bike-overview.html#sec-crank-removal",
+    "href": "biking/bike-overview.html#sec-crank-removal",
+    "title": "4  Bike overview and equipment",
+    "section": "4.5 Crankset removal (after pedals)",
+    "text": "4.5 Crankset removal (after pedals)\nTraditional square-taper or external-bearing systems use a crank extractor; FSA 30 mm self-extracting axles use a 10 mm hex in the central bolt instead — see Section 6.4 for the full chainring-replacement workflow.\nFor extractor-type cranks:\n\nRemove the chain.\nRemove the retaining bolt at the base of the crank.\nFit the crank extractor; if stiff, back the extractor off slightly and tap with a mallet.\nTighten the extractor with a 14 mm spanner until the crank releases. Repeat on both sides, turning anti-clockwise.\n\n  \nReference videos:\n\nRoad crank removal\n\n\n\n\n\n\n\n\n\n\n\nFigure 4.4: Crank removal with a classic extractor (non self-extracting axles).",
+    "crumbs": [
+      "Bicycle maintenance",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bike overview and equipment</span>"
+    ]
+  },
+  {
+    "objectID": "biking/brakes.html",
+    "href": "biking/brakes.html",
+    "title": "5  Brakes",
+    "section": "",
+    "text": "5.1 Brake caliper types\nBrake types, inspection, and lever replacement notes.\nCommon road-bike families:",
+    "crumbs": [
+      "Bicycle maintenance",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Brakes</span>"
+    ]
+  },
+  {
+    "objectID": "biking/brakes.html#sec-brake-types",
+    "href": "biking/brakes.html#sec-brake-types",
+    "title": "5  Brakes",
+    "section": "",
+    "text": "Figure 5.1: Overview of common bicycle brake calipers\n\n\n\n\n\n\n\n\n\n\n\n\nType\nWhere\nMonitoring focus\n\n\n\n\nRim (dual-pivot, side-pull)\nFrame/fork bridges\nPad wear, rim surface, cable friction\n\n\nCantilever / V-brake\nOlder hybrids, CX\nPad alignment, straddle cable\n\n\nDisc (mechanical or hydraulic)\nModern road, gravel\nRotor thickness, pad gap, fluid level",
+    "crumbs": [
+      "Bicycle maintenance",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Brakes</span>"
+    ]
+  },
+  {
+    "objectID": "biking/brakes.html#sec-brake-monitor",
+    "href": "biking/brakes.html#sec-brake-monitor",
+    "title": "5  Brakes",
+    "section": "5.2 How to monitor rim brakes",
+    "text": "5.2 How to monitor rim brakes\n\nPad thickness — replace before the metal holder contacts the rim.\nPad alignment — toe-in slightly at the leading edge; full contact without rubbing the tyre.\nRim wear — look for a wear groove disappearing or a concave profile.\nCable and housing — smooth lever travel; no fraying at the end.\nQuick test — wheel spins freely off the stand; firm lever feel with ~2–3 cm travel before firm contact.\n\n\n\n\n\n\n\n\n\n\n\nFigure 5.2: Rim-brake inspection routine.",
+    "crumbs": [
+      "Bicycle maintenance",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Brakes</span>"
+    ]
+  },
+  {
+    "objectID": "biking/brakes.html#sec-brake-levers",
+    "href": "biking/brakes.html#sec-brake-levers",
+    "title": "5  Brakes",
+    "section": "5.3 Brake lever replacement",
+    "text": "5.3 Brake lever replacement\nUseful references when replacing or refurbishing STI levers:\n\nLever replacement (video)\nFull cable and lever change\nShimano RSX lever rebuild\nShimano 105 ST-5600 diagram\n\n\n\n\n\n\n\nFigure 5.3: STI lever internals diagram\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 5.4: STI lever replacement outline.",
+    "crumbs": [
+      "Bicycle maintenance",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Brakes</span>"
+    ]
+  },
+  {
+    "objectID": "biking/gears.html",
+    "href": "biking/gears.html",
+    "title": "6  Gears",
+    "section": "",
+    "text": "6.1 Front derailleur\nDerailleur adjustment, chain cleaning, and a chainring / rear-derailleur replacement workflow for a Shimano 105 triple 10-speed bike.\nTighten = clockwise · Loosen = anti-clockwise (see Figure 4.1 in the overview chapter).\nReference: Citycle front derailleur guide.\nFigure 6.1: Front derailleur adjustment order.",
+    "crumbs": [
+      "Bicycle maintenance",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Gears</span>"
+    ]
+  },
+  {
+    "objectID": "biking/gears.html#sec-gears-front",
+    "href": "biking/gears.html#sec-gears-front",
+    "title": "6  Gears",
+    "section": "",
+    "text": "Height and alignment — outer cage plate ~2 mm above the big chainring teeth; cage parallel to the chainrings.\nLimit screws — with the cable slack:\n\nL (low / inner) — loosen to move toward the frame (e.g. if it sits on the middle ring instead of the inner); tighten to move outward if the chain drops off the inner ring.\nH (high / outer) — sets the outer limit on the big ring.\n\nCable tension — leave ~2 turns of barrel-adjuster range; if shifts to larger rings are sluggish, increase cable tension; if the chain overshoots, reduce tension.",
+    "crumbs": [
+      "Bicycle maintenance",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Gears</span>"
+    ]
+  },
+  {
+    "objectID": "biking/gears.html#sec-gears-rear",
+    "href": "biking/gears.html#sec-gears-rear",
+    "title": "6  Gears",
+    "section": "6.2 Rear derailleur",
+    "text": "6.2 Rear derailleur\nReference: VCMB rear derailleur guide and video walkthrough.\n\nConfirm the derailleur hanger is straight and the cage aligns with the sprockets.\nH limit (high gear, smallest sprocket) — turning out (anti-clockwise) moves the upper jockey wheel outward; turning in moves it toward the frame.\nL limit (low gear, largest sprocket) — the opposite sense to H: turning in moves outward; turning out moves toward the frame. (The L screw is sometimes called the “high stop” in shop jargon — confusing, but common.)\nCable tension — middle chainring, smallest sprocket; increase tension if upshifts are hesitant, decrease if the chain climbs too eagerly.\nB-tension screw — sets gap between upper jockey wheel and largest sprocket.\n\n \n\n\n\n\n\n\n\n\n\n\nFigure 6.2: Rear derailleur adjustment order.",
+    "crumbs": [
+      "Bicycle maintenance",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Gears</span>"
+    ]
+  },
+  {
+    "objectID": "biking/gears.html#sec-gears-chain",
+    "href": "biking/gears.html#sec-gears-chain",
+    "title": "6  Gears",
+    "section": "6.3 Chain cleaning",
+    "text": "6.3 Chain cleaning\n\nDegrease (drivetrain cleaner or solvent).\nWash with warm water and washing-up liquid; remove the chain if heavily contaminated.\nDry thoroughly, then lubricate sparingly on each link; wipe excess.\n\nSources:\n\nYouTube chain clean\nDecathlon chain care\n\n\n\n\n\n\n\n\n\n\n\nFigure 6.3: Chain cleaning workflow.",
+    "crumbs": [
+      "Bicycle maintenance",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Gears</span>"
+    ]
+  },
+  {
+    "objectID": "biking/gears.html#sec-gears-chainrings",
+    "href": "biking/gears.html#sec-gears-chainrings",
+    "title": "6  Gears",
+    "section": "6.4 Chainring and rear-derailleur replacement",
+    "text": "6.4 Chainring and rear-derailleur replacement\nNotes for an FSA Gossamer triple 52/39/30 (five-arm: 130 mm BCD outer/middle, 74 mm BCD inner), 175 mm cranks, 9/10-speed chain, with Shimano 105 ST-5703 / FD-5703 shifters.\nCompatible rear derailleur: Shimano 105 RD-5701-GS (preferred) or Tiagra RD-4601-GS. Do not fit a Deore M6000 10-speed derailleur — cable pull differs from 5700-generation road levers.\nBefore ordering: confirm the largest cassette sprocket (officially 25–30 teeth for RD-5701-GS). Examples 11-28, 12-28, 12-30 are fine; 11-32 needs checking.\n\n6.4.1 Suggested chainring parts (verify Marketplace shipping)\n\n\n\nRing\nSpec\n\n\n\n\nOuter 52\nTA Spécialités Alizé, 130 BCD, 5-arm, 9/10 s\n\n\nMiddle 39\nTA Spécialités Alizé, 130 BCD, 5-arm, 9/10 s\n\n\nInner 30\nTA Spécialités Zelito, 74 BCD, 5-arm, triple 9/10 s\n\n\n\n\n\n6.4.2 Replacement procedure\n\n\n\n\n\n\n\n\n\n\nFigure 6.4: Chainring and rear-derailleur replacement (keep shifters, cables, FD).\n\n\n\n\n\nStep-by-step:\n\nRemove the chain — quick-link pliers if fitted; otherwise use the chain tool from the 900 box.\nRemove the rear derailleur — slacken the cable pinch bolt only; no need to pull the inner wire from the shifter. Unbolt from the hanger (8–10 Nm on refit).\nSet the H limit on the new derailleur before attaching the cable.\nRemove the FSA crank — left side: 10 mm hex in the central self-extracting bolt, turn anti-clockwise. Do not remove the outer retaining ring; it is part of the extraction mechanism.\nPhotograph washers — especially the wave washer; keep the BB30 bearings in the frame.\nReplace chainrings on the bench — use the chainring nut tool; orient markings and anti-drop pin on the outer ring behind the crank arm.\nGrease bolt threads lightly — follow torque specs supplied with the new rings.\nReinstall the crank — restore washers in the original order; torque the 30 mm axle bolt to 38–41 Nm with a calibrated wrench.\nAdjust the rear derailleur — H limit, cable tension, L limit, B-tension.\nFit a new 10-speed chain — match the old link count if the previous length was correct; respect directional markings.\nTest — the front derailleur should need little change if tooth counts stay 52/39/30.\n\n\n\n6.4.3 Cassette wear warning\nA new chain on a heavily worn cassette can skip under load. If skipping persists on one or two sprockets despite correct adjustment, replace the cassette — the 900 box already includes the HG lockring tool and chain whip.\nMinimum extra purchases: 10 mm hex key/bit and a torque wrench to ≥ 41 Nm; add quick-link pliers and grease for convenience.",
+    "crumbs": [
+      "Bicycle maintenance",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Gears</span>"
+    ]
+  },
+  {
+    "objectID": "biking/tyres-wheels.html",
+    "href": "biking/tyres-wheels.html",
+    "title": "7  Tyres and wheels",
+    "section": "",
+    "text": "7.1 Wheel truing\nWheel truing, cassette removal, and tyre basics.",
+    "crumbs": [
+      "Bicycle maintenance",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Tyres and wheels</span>"
+    ]
+  },
+  {
+    "objectID": "biking/tyres-wheels.html#sec-truing",
+    "href": "biking/tyres-wheels.html#sec-truing",
+    "title": "7  Tyres and wheels",
+    "section": "",
+    "text": "7.1.1 Tools\n\n\n\nSpoke wrench icon\n\n\n\nSpoke wrench (correct size for your nipples)\nTruing stand or frame as a guide\nDish gauge (optional) — checks rim centreing on the hub\nLateral indicator — measures lateral run-out (“dish” error in the sideways plane)\n\n\n\n\nTruing stand and indicators\n\n\n\n\n7.1.2 Truing procedure\nSpoke nipples tighten clockwise (viewed from the rim), increasing tension.\n\nCheck for broken spokes; replace any that are damaged.\nBring overall tension up evenly before fine truing.\nCorrect run-out in groups of 3–4 spokes at a time:\n\nIf the rim pulls left, tighten right-side spokes and/or loosen left-side spokes.\nReverse for movement to the right.\n\nWork in ¼ or ½ turn increments — never force a nipple to its limit.\n\nFull tutorial: Le Cyclo — wheel truing\n\n\n\n\n\n\n\n\n\n\nFigure 7.1: Wheel truing decision loop.",
+    "crumbs": [
+      "Bicycle maintenance",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Tyres and wheels</span>"
+    ]
+  },
+  {
+    "objectID": "biking/tyres-wheels.html#sec-cassette",
+    "href": "biking/tyres-wheels.html#sec-cassette",
+    "title": "7  Tyres and wheels",
+    "section": "7.2 Cassette removal",
+    "text": "7.2 Cassette removal\nIdentify whether you have a cassette (modern freehub) or a freewheel (screw-on, common on ≤ 7-speed bikes).\nVideo: cassette removal\n\nFit the chain whip to hold the sprockets.\nInsert the lockring tool and turn the lockring anti-clockwise.\n\n \n\n\n\n\n\n\n\n\n\n\nFigure 7.2: Cassette removal on a Shimano HG freehub.",
+    "crumbs": [
+      "Bicycle maintenance",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Tyres and wheels</span>"
+    ]
+  },
+  {
+    "objectID": "biking/tyres-wheels.html#sec-tyres",
+    "href": "biking/tyres-wheels.html#sec-tyres",
+    "title": "7  Tyres and wheels",
+    "section": "7.3 Tyres",
+    "text": "7.3 Tyres\n\n7.3.1 Routine checks\n\nCorrect inflation (see sidewall range; typically 6–8 bar / 80–115 psi for 25 mm road tyres)\nTread wear indicators or flat spot in the centre\nCuts, embedded glass, sidewall bulges\nValve seating (Presta: tighten lockring finger-tight only)\n\n\n\n7.3.2 Tyre removal and fitting\n\n\n\n\n\n\n\n\n\n\nFigure 7.3: Road tyre replacement on the roadside or at home.\n\n\n\n\n\n\n\n7.3.3 When to replace\n\n\n\n\n\n\n\nSign\nAction\n\n\n\n\nFrequent punctures on same wheel\nInspect rim tape and spoke ends\n\n\nSquared-off tread profile\nReplace tyre\n\n\nVisible casing threads\nReplace immediately\n\n\nAge &gt; 3–5 years (garage storage)\nConsider replacement even if tread looks fine",
+    "crumbs": [
+      "Bicycle maintenance",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Tyres and wheels</span>"
+    ]
+  },
+  {
+    "objectID": "biking/steering.html",
+    "href": "biking/steering.html",
+    "title": "8  Steering and headset",
+    "section": "",
+    "text": "8.1 Threaded headset adjustment\nHeadset adjustment (“steering play”) and related notes from personal maintenance logs.\nExcess play is felt as a knock or looseness when rocking the bike with the front brake on.\nReference video: headset adjustment",
+    "crumbs": [
+      "Bicycle maintenance",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Steering and headset</span>"
+    ]
+  },
+  {
+    "objectID": "biking/steering.html#sec-headset",
+    "href": "biking/steering.html#sec-headset",
+    "title": "8  Steering and headset",
+    "section": "",
+    "text": "8.1.1 Adjustment sequence\n\nLoosen the locknut (top nut).\nTurn the adjusting cup / bearing race until play just disappears with the fork centred — the bars should turn smoothly without binding.\nHold the adjusting cup in place and re-tighten the locknut.\nRe-check: no play, no notchiness.\n\n\n\n\n\n\n\n\n\n\n\nFigure 8.1: Threaded headset adjustment protocol.",
+    "crumbs": [
+      "Bicycle maintenance",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Steering and headset</span>"
+    ]
+  },
+  {
+    "objectID": "biking/steering.html#sec-headset-threadless",
+    "href": "biking/steering.html#sec-headset-threadless",
+    "title": "8  Steering and headset",
+    "section": "8.2 Integrated / threadless headsets",
+    "text": "8.2 Integrated / threadless headsets\nMost modern road bikes use a threadless system:\n\nLoosen stem clamp bolts.\nTurn the top cap bolt (usually 4 or 5 mm hex) to remove play — typically 0.2–0.5 Nm preload, just enough to seat the bearings.\nAlign the stem with the front wheel.\nTorque stem clamp bolts evenly to manufacturer spec.\n\n\n\n\n\n\n\n\n\n\n\nFigure 8.2: Threadless headset adjustment.",
+    "crumbs": [
+      "Bicycle maintenance",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Steering and headset</span>"
+    ]
+  },
+  {
+    "objectID": "biking/steering.html#sec-headset-symptoms",
+    "href": "biking/steering.html#sec-headset-symptoms",
+    "title": "8  Steering and headset",
+    "section": "8.3 Symptoms and causes",
+    "text": "8.3 Symptoms and causes\n\n\n\nSymptom\nLikely cause\n\n\n\n\nKnock when braking\nHeadset too loose\n\n\nNotchy steering\nCorroded or pitted bearings\n\n\nBars cannot centre\nBent fork or misaligned stem\n\n\nPlay returns quickly\nLocknut not secured; wrong washer order",
+    "crumbs": [
+      "Bicycle maintenance",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Steering and headset</span>"
+    ]
+  },
+  {
+    "objectID": "biking/steering.html#sec-steering-related",
+    "href": "biking/steering.html#sec-steering-related",
+    "title": "8  Steering and headset",
+    "section": "8.4 Related: pedal and crank orientation",
+    "text": "8.4 Related: pedal and crank orientation\nPedal thread directions and crank removal are covered in bike overview and gears. Always remove pedals before extracting cranks so the threads are not damaged by leverage on the levers.",
+    "crumbs": [
+      "Bicycle maintenance",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Steering and headset</span>"
+    ]
+  }
+]
